@@ -15,7 +15,7 @@ import SolutionDecoder.AbsSolutionDecoder;
 import SolutionDecoder.SolutionDecoderA;
 import Structure.Solution;
 
-public class Executor {
+public class Executor implements Runnable {
 
 	
 	private AbsActivityCrosser ac;
@@ -33,6 +33,7 @@ public class Executor {
 	private int cutCondition;
 	private double crossDiscriminant;
 	private AbsSolutionDecoder sd;
+	private Document outputDoc;
 	
 	public Executor(SolutionHandler sh){
 		this.sh = sh;
@@ -104,12 +105,13 @@ public class Executor {
 	 * @param 	configValues: the initial configuration values, probabilities and conditions
 	 * 			options: the kind of components that the user chose on the view
 	 */
-	public void setEnvironment( double[] configValues, int[] options ){
+	public void setEnvironment( double[] configValues, int[] options, Document outputDoc ){
 		this.pc = configValues[0];
 		this.pm = configValues[1];
 		this.nInitialSolutions = 32;
 		this.cutCondition = (int)configValues[2];
 		this.crossDiscriminant = configValues[3];
+		this.outputDoc = outputDoc;
 		this.fc = this.factoryFitnessCalculator(0);
 		this.ip = new InitialPopulator(this.sh);
 		this.ac = this.factoryActivityCrosser(options[0]);
@@ -120,7 +122,8 @@ public class Executor {
 		this.pr = this.factoryPopulationReplacer(options[2]);
 
 	}
-	public void execute(Document outputDoc){
+	@Override
+	public void run(){
 		AbsMutator m = new MutatorA(this.am,this.rm);
 		AbsCrosser cr = new CrosserA(this.ac, this.rc, this.pc);
 		Solver solv = new Solver();
@@ -132,6 +135,6 @@ public class Executor {
 		solv.setParentSelector(this.ps);
 		solv.setPopulationReplacer(this.pr);
 		solv.setCutCondition(this.cutCondition);
-		ArrayList<Solution> result = solv.solve(outputDoc);
+		ArrayList<Solution> result = solv.solve(this.outputDoc);
 	}
 }

@@ -85,7 +85,7 @@ public class MainWindow {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
+		final JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		tabbedPane.setBounds(10, 11, 745, 519);
 		frame.getContentPane().add(tabbedPane);
 		frame.getContentPane().add(tabbedPane);
@@ -104,7 +104,6 @@ public class MainWindow {
 		
 		JComponent panel1 = new JPanel(false);
 		tabbedPane.addTab("Config", null,panel1,"Does nothing");
-		
 		JSeparator separator = new JSeparator();
 		
 		JLabel lblPopulationConfig = new JLabel("Population config");
@@ -402,21 +401,30 @@ public class MainWindow {
 		outputDoc.addDocumentListener(new DocumentListener() {
 			
 			@Override
-			public void removeUpdate(DocumentEvent arg0) {
-				// TODO Auto-generated method stub
+			public void removeUpdate(DocumentEvent e) {
+				displayEditInfo(e);
 				
 			}
 			
 			@Override
 			public void insertUpdate(DocumentEvent e) {
-				textArea.append(e.toString());
+				//textArea.append(e.toString());
+				displayEditInfo(e);
 				
 			}
 			
 			@Override
-			public void changedUpdate(DocumentEvent arg0) {
-				// TODO Auto-generated method stub
-				
+			public void changedUpdate(DocumentEvent e) {
+				displayEditInfo(e);				
+			}
+			private void displayEditInfo(DocumentEvent e) {
+	            Document document = (Document)e.getDocument();
+	            int changeLength = e.getLength();
+	            textArea.append(e.getType().toString() + ": "
+	                + changeLength + " character"
+	                + ((changeLength == 1) ? ". " : "s. ")
+	                + " Text length = " + document.getLength()
+	                + "." + "\n");
 			}
 		});
 		
@@ -424,12 +432,14 @@ public class MainWindow {
 			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
+				tabbedPane.setSelectedIndex(1);
 				SolutionHandler sh = new SolutionHandler(32, 103, 4);
 				Executor exec = new Executor(sh);
 				int[] options = {0,0,0,0,0,0};
 				double[] configValues = {0.9,0.2,200,0.5};
-				exec.setEnvironment(configValues, options);
-				exec.execute(outputDoc);
+				exec.setEnvironment(configValues, options,outputDoc);
+				Thread thrd = new Thread(exec);
+				thrd.start();
 			}
 		});
 	}
