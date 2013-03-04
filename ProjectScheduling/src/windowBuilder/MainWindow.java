@@ -5,6 +5,7 @@ import java.awt.EventQueue;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.JSplitPane;
 import javax.swing.JSeparator;
@@ -13,6 +14,8 @@ import javax.swing.GroupLayout.Alignment;
 import javax.swing.JLabel;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JTextField;
+import javax.swing.ScrollPaneConstants;
+
 import java.awt.Choice;
 import javax.swing.JSpinner;
 import javax.swing.JList;
@@ -40,8 +43,10 @@ import javax.swing.JTextPane;
 import javax.swing.JTextArea;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import javax.swing.text.BadLocationException;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.Document;
+import javax.swing.SwingConstants;
 
 
 
@@ -347,6 +352,7 @@ public class MainWindow {
 		panel2.setLayout(gbl_panel2);
 		
 		JPanel panel = new JPanel();
+		panel.setLayout(null);
 		GridBagConstraints gbc_panel = new GridBagConstraints();
 		gbc_panel.insets = new Insets(0, 0, 5, 5);
 		gbc_panel.fill = GridBagConstraints.BOTH;
@@ -354,10 +360,61 @@ public class MainWindow {
 		gbc_panel.gridy = 0;
 		panel2.add(panel, gbc_panel);
 		
+		JLabel lblNOfAct = new JLabel("N. of Act :");
+		lblNOfAct.setBounds(10, 35, 50, 14);
+		lblNOfAct.setHorizontalAlignment(SwingConstants.LEFT);
+		panel.add(lblNOfAct);
+		
 		JLabel lblConfiguration = new JLabel("Configuration");
+		lblConfiguration.setBounds(41, 0, 65, 14);
 		panel.add(lblConfiguration);
 		
+		JLabel lblPm_1 = new JLabel("PM :");
+		lblPm_1.setBounds(10, 60, 46, 14);
+		panel.add(lblPm_1);
+		
+		JLabel lblPc_1 = new JLabel("PC : ");
+		lblPc_1.setBounds(10, 85, 46, 14);
+		panel.add(lblPc_1);
+		
+		JLabel lblCc_1 = new JLabel("CC : ");
+		lblCc_1.setBounds(10, 110, 46, 14);
+		panel.add(lblCc_1);
+		
+		JLabel lblNewLabel = new JLabel("CD : ");
+		lblNewLabel.setBounds(10, 135, 46, 14);
+		panel.add(lblNewLabel);
+		
+		JLabel lblACrosser = new JLabel("A. Crosser :");
+		lblACrosser.setBounds(10, 173, 65, 14);
+		panel.add(lblACrosser);
+		
+		JLabel lblRCrosser = new JLabel("R. Crosser : ");
+		lblRCrosser.setBounds(10, 200, 70, 14);
+		panel.add(lblRCrosser);
+		
+		JLabel lblAMutator = new JLabel("A. Mutator :");
+		lblAMutator.setBounds(10, 226, 65, 14);
+		panel.add(lblAMutator);
+		
+		JLabel lblRMutator = new JLabel("R. Mutator : ");
+		lblRMutator.setBounds(10, 252, 65, 14);
+		panel.add(lblRMutator);
+		
+		JLabel lblPSelector = new JLabel("P. Selector :");
+		lblPSelector.setBounds(10, 277, 65, 14);
+		panel.add(lblPSelector);
+		
+		JLabel lblPReplacer = new JLabel("P. Replacer : ");
+		lblPReplacer.setBounds(10, 301, 65, 14);
+		panel.add(lblPReplacer);
+		
+		JLabel lblFitnessCalculator = new JLabel("Fitness Calculator : ");
+		lblFitnessCalculator.setBounds(10, 326, 96, 14);
+		panel.add(lblFitnessCalculator);
+		
 		JPanel panel_1 = new JPanel();
+		panel_1.setLayout(null);
 		GridBagConstraints gbc_panel_1 = new GridBagConstraints();
 		gbc_panel_1.insets = new Insets(0, 0, 0, 5);
 		gbc_panel_1.fill = GridBagConstraints.BOTH;
@@ -366,9 +423,11 @@ public class MainWindow {
 		panel2.add(panel_1, gbc_panel_1);
 		
 		JButton btnStop = new JButton("Stop");
+		btnStop.setBounds(50, 18, 55, 23);
 		panel_1.add(btnStop);
 		
 		JButton btnBack = new JButton("Back");
+		btnBack.setBounds(50, 52, 55, 23);
 		panel_1.add(btnBack);
 		
 		JPanel panel_2 = new JPanel();
@@ -381,11 +440,15 @@ public class MainWindow {
 		panel2.add(panel_2, gbc_panel_2);
 		
 		final JTextArea textArea = new JTextArea();
-		textArea.setRows(21);
-		textArea.setColumns(65);
-		panel_2.add(textArea);
+		JScrollPane scroll = new JScrollPane(textArea);
+	    scroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+		textArea.setRows(23);
+		textArea.setColumns(50);
+		textArea.setEditable(false); 
+		panel_2.add(scroll);
 		
 		JPanel panel_3 = new JPanel();
+		panel_3.setLayout(null);
 		GridBagConstraints gbc_panel_3 = new GridBagConstraints();
 		gbc_panel_3.insets = new Insets(0, 0, 0, 0);
 		gbc_panel_3.fill = GridBagConstraints.BOTH;
@@ -393,45 +456,31 @@ public class MainWindow {
 		gbc_panel_3.gridy = 1;
 		panel2.add(panel_3, gbc_panel_3);
 		
+		JButton btnNext = new JButton("Next");
+		btnNext.setEnabled(false);
+		btnNext.setBounds(481, 39, 89, 23);
+		panel_3.add(btnNext);
+		
 		JComponent panel3 = new JPanel(false);
 		tabbedPane.addTab("Analysis", null,panel3,"Does nothing");
+		tabbedPane.setEnabledAt(1, false);
+		tabbedPane.setEnabledAt(2, false);
 		frame.getContentPane().add(tabbedPane);
 		
+		/*
+		 * 
+		 */
 		final Document outputDoc = new DefaultStyledDocument();
-		outputDoc.addDocumentListener(new DocumentListener() {
-			
-			@Override
-			public void removeUpdate(DocumentEvent e) {
-				displayEditInfo(e);
-				
-			}
-			
-			@Override
-			public void insertUpdate(DocumentEvent e) {
-				//textArea.append(e.toString());
-				displayEditInfo(e);
-				
-			}
-			
-			@Override
-			public void changedUpdate(DocumentEvent e) {
-				displayEditInfo(e);				
-			}
-			private void displayEditInfo(DocumentEvent e) {
-	            Document document = (Document)e.getDocument();
-	            int changeLength = e.getLength();
-	            textArea.append(e.getType().toString() + ": "
-	                + changeLength + " character"
-	                + ((changeLength == 1) ? ". " : "s. ")
-	                + " Text length = " + document.getLength()
-	                + "." + "\n");
-			}
-		});
+		textArea.setDocument(outputDoc);
 		
+		/*
+		 * Run button action listener
+		 */
 		btnRun.addActionListener(new ActionListener() {
 			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
+				tabbedPane.setEnabledAt(1, true);
 				tabbedPane.setSelectedIndex(1);
 				SolutionHandler sh = new SolutionHandler(32, 103, 4);
 				Executor exec = new Executor(sh);
