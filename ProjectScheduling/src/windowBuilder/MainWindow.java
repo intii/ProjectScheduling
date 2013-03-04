@@ -2,6 +2,7 @@ package windowBuilder;
 
 import java.awt.EventQueue;
 
+import javax.swing.ButtonModel;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -47,6 +48,7 @@ import javax.swing.text.BadLocationException;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.Document;
 import javax.swing.SwingConstants;
+import java.awt.Font;
 
 
 
@@ -366,7 +368,8 @@ public class MainWindow {
 		panel.add(lblNOfAct);
 		
 		JLabel lblConfiguration = new JLabel("Configuration");
-		lblConfiguration.setBounds(41, 0, 65, 14);
+		lblConfiguration.setFont(new Font("Tahoma", Font.BOLD, 15));
+		lblConfiguration.setBounds(10, 0, 121, 14);
 		panel.add(lblConfiguration);
 		
 		JLabel lblPm_1 = new JLabel("PM :");
@@ -412,6 +415,66 @@ public class MainWindow {
 		JLabel lblFitnessCalculator = new JLabel("Fitness Calculator : ");
 		lblFitnessCalculator.setBounds(10, 326, 96, 14);
 		panel.add(lblFitnessCalculator);
+		
+		JTextPane textNOfActs = new JTextPane();
+		textNOfActs.setEditable(false);
+		textNOfActs.setBounds(69, 35, 76, 20);
+		panel.add(textNOfActs);
+		
+		JTextPane textPM = new JTextPane();
+		textPM.setEditable(false);
+		textPM.setBounds(41, 60, 76, 20);
+		panel.add(textPM);
+		
+		JTextPane textPC = new JTextPane();
+		textPC.setEditable(false);
+		textPC.setBounds(41, 85, 76, 20);
+		panel.add(textPC);
+		
+		JTextPane textCC = new JTextPane();
+		textCC.setEditable(false);
+		textCC.setBounds(41, 110, 76, 20);
+		panel.add(textCC);
+		
+		JTextPane textCD = new JTextPane();
+		textCD.setEditable(false);
+		textCD.setBounds(41, 135, 76, 20);
+		panel.add(textCD);
+		
+		JTextPane textACrosser = new JTextPane();
+		textACrosser.setEditable(false);
+		textACrosser.setBounds(69, 167, 76, 20);
+		panel.add(textACrosser);
+		
+		JTextPane textRCrosser = new JTextPane();
+		textRCrosser.setEditable(false);
+		textRCrosser.setBounds(69, 198, 76, 20);
+		panel.add(textRCrosser);
+		
+		JTextPane textAMutator = new JTextPane();
+		textAMutator.setEditable(false);
+		textAMutator.setBounds(69, 225, 76, 20);
+		panel.add(textAMutator);
+		
+		JTextPane textRMutator = new JTextPane();
+		textRMutator.setEditable(false);
+		textRMutator.setBounds(69, 251, 76, 20);
+		panel.add(textRMutator);
+		
+		JTextPane textPSelector = new JTextPane();
+		textPSelector.setEditable(false);
+		textPSelector.setBounds(69, 277, 76, 20);
+		panel.add(textPSelector);
+		
+		JTextPane textPopReplacer = new JTextPane();
+		textPopReplacer.setEditable(false);
+		textPopReplacer.setBounds(69, 302, 76, 20);
+		panel.add(textPopReplacer);
+		
+		JTextPane textFCalculator = new JTextPane();
+		textFCalculator.setEditable(false);
+		textFCalculator.setBounds(41, 351, 76, 20);
+		panel.add(textFCalculator);
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setLayout(null);
@@ -460,6 +523,14 @@ public class MainWindow {
 		btnNext.setEnabled(false);
 		btnNext.setBounds(481, 39, 89, 23);
 		panel_3.add(btnNext);
+		
+		JButton btnSave = new JButton("Save");
+		btnSave.setBounds(382, 39, 89, 23);
+		panel_3.add(btnSave);
+		
+		JLabel lblTotalExecutionTime = new JLabel("Total Execution Time (ms) :");
+		lblTotalExecutionTime.setBounds(26, 39, 136, 14);
+		panel_3.add(lblTotalExecutionTime);
 		
 		JComponent panel3 = new JPanel(false);
 		tabbedPane.addTab("Analysis", null,panel3,"Does nothing");
