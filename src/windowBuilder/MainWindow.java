@@ -49,6 +49,7 @@ import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.Document;
 import javax.swing.SwingConstants;
 import java.awt.Font;
+import javax.swing.UIManager;
 
 
 
@@ -59,6 +60,43 @@ public class MainWindow {
 	private JTextField PCInput;
 	private JTextField CCInput;
 	private JTextField CDInput;
+	
+	private JTabbedPane tabbedPane;
+	
+	private JTextPane textACrosser = new JTextPane();
+	private JComboBox AMutatorChooser;
+	private JComboBox RMutatorChooser;
+	private JComboBox RCrosserChooser;
+	private JComboBox ACrosserChooser;
+	private JComboBox PSelectorChooser;
+	private JComboBox PReplacerChooser;
+	
+	private JTextPane textNOfActs;
+	private JTextPane textCC;
+	private JTextPane textCD;
+	private JTextPane textPM;
+	private JTextPane textPC;
+	private JTextPane textRCrosser;
+	private JTextPane textAMutator;
+	private JTextPane textRMutator; 
+	private JTextPane textPSelector; 
+	private JTextPane textPopReplacer;
+	private JTextPane textFCalculator;
+	
+	private JTextArea textArea;
+	
+	private Document outputDoc;
+	
+	/*
+	 * Options description
+	 * 
+	*/
+	private String[] ActivityMutatorList = {"A","B"};
+	private String[] ResourceMutatorList = {"A"};
+	private String[] ActivityCrosserList = {"A","B"};
+	private String[] ResourceCrosserList = {"A","B"};
+	private String[] ParentSelectorList = {"A","B"};
+	private String[] PopulationReplacerList = {"A","B","C"};
 
 	/**
 	 * Launch the application.
@@ -92,25 +130,14 @@ public class MainWindow {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		final JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
+		tabbedPane = new JTabbedPane(JTabbedPane.TOP);
+		JComponent configPanel = new JPanel(false);
+		
 		tabbedPane.setBounds(10, 11, 745, 519);
 		frame.getContentPane().add(tabbedPane);
 		frame.getContentPane().add(tabbedPane);
 		
-		/*
-		 * Options description
-		 * 
-		*/
-		String[] ActivityMutatorList = {"A","B"};
-		String[] ResourceMutatorList = {"A"};
-		String[] ActivityCrosserList = {"A","B"};
-		String[] ResourceCrosserList = {"A","B"};
-		String[] ParentSelectorList = {"A","B"};
-		String[] PopulationReplacerList = {"A","B","C"};
-		
-		
-		JComponent panel1 = new JPanel(false);
-		tabbedPane.addTab("Config", null,panel1,"Does nothing");
+		tabbedPane.addTab("Config", null,configPanel,"Does nothing");
 		JSeparator separator = new JSeparator();
 		
 		JLabel lblPopulationConfig = new JLabel("Population config");
@@ -120,30 +147,32 @@ public class MainWindow {
 		JLabel lblPm = new JLabel("PM");
 		
 		PMInput = new JTextField();
+		PMInput.setText("0.2");
 		PMInput.setColumns(10);
 		
 		JLabel lblPc = new JLabel("PC");
 		
 		PCInput = new JTextField();
+		PCInput.setText("0.9");
 		PCInput.setColumns(10);
 		
 		JLabel lblMutator = new JLabel("AMutator");
-		final JComboBox AMutatorChooser = new JComboBox(ActivityMutatorList);
+		AMutatorChooser = new JComboBox(ActivityMutatorList);
 		
 		JLabel lblRmutator = new JLabel("RMutator");
-		final JComboBox RMutatorChooser= new JComboBox(ResourceMutatorList);
+		RMutatorChooser= new JComboBox(ResourceMutatorList);
 		
 		JLabel lblRcrosser = new JLabel("RCrosser");
-		final JComboBox RCrosserChooser = new JComboBox(ResourceCrosserList);
+		RCrosserChooser = new JComboBox(ResourceCrosserList);
 		
 		JLabel lblAcrosser = new JLabel("ACrosser");
-		final JComboBox ACrosserChooser = new JComboBox(ActivityCrosserList);
+		ACrosserChooser = new JComboBox(ActivityCrosserList);
 		
 		JLabel lblPselector = new JLabel("PSelector");
-		final JComboBox PSelectorChooser = new JComboBox(ParentSelectorList);
+		PSelectorChooser = new JComboBox(ParentSelectorList);
 		
 		JLabel lblPreplacer = new JLabel("PReplacer");
-		final JComboBox PReplacerChooser = new JComboBox(PopulationReplacerList);
+		PReplacerChooser = new JComboBox(PopulationReplacerList);
 		
 		JRadioButton rdbtnMultiple = new JRadioButton("Multiple");
 		
@@ -158,11 +187,13 @@ public class MainWindow {
 		JLabel lblCc = new JLabel("CC");
 		
 		CCInput = new JTextField();
+		CCInput.setText("300");
 		CCInput.setColumns(10);
 		
 		JLabel lblCd = new JLabel("CD");
 		
 		CDInput = new JTextField();
+		CDInput.setText("0.5");
 		CDInput.setColumns(10);
 		
 		JButton btnRun = new JButton("Run -->");
@@ -173,7 +204,7 @@ public class MainWindow {
 		
 		JSeparator separator_3 = new JSeparator();
 		
-		GroupLayout gl_panel1 = new GroupLayout(panel1);
+		GroupLayout gl_panel1 = new GroupLayout(configPanel);
 		gl_panel1.setHorizontalGroup(
 			gl_panel1.createParallelGroup(Alignment.LEADING)
 				.addGroup(gl_panel1.createSequentialGroup()
@@ -340,7 +371,7 @@ public class MainWindow {
 					.addComponent(separator_3, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
 					.addContainerGap(143, Short.MAX_VALUE))
 		);
-		panel1.setLayout(gl_panel1);
+		configPanel.setLayout(gl_panel1);
 		
 		JComponent panel2 = new JPanel(false);
 		panel2.setBackground(Color.LIGHT_GRAY);
@@ -416,62 +447,74 @@ public class MainWindow {
 		lblFitnessCalculator.setBounds(10, 326, 96, 14);
 		panel.add(lblFitnessCalculator);
 		
-		JTextPane textNOfActs = new JTextPane();
+		textNOfActs = new JTextPane();
+		textNOfActs.setBackground(UIManager.getColor("Button.background"));
 		textNOfActs.setEditable(false);
-		textNOfActs.setBounds(69, 35, 76, 20);
+		textNOfActs.setBounds(70, 29, 76, 20);
 		panel.add(textNOfActs);
 		
-		JTextPane textPM = new JTextPane();
+		textPM = new JTextPane();
+		textPM.setBackground(UIManager.getColor("Button.background"));
 		textPM.setEditable(false);
 		textPM.setBounds(41, 60, 76, 20);
 		panel.add(textPM);
 		
-		JTextPane textPC = new JTextPane();
+		textPC = new JTextPane();
+		textPC.setBackground(UIManager.getColor("Button.background"));
 		textPC.setEditable(false);
 		textPC.setBounds(41, 85, 76, 20);
 		panel.add(textPC);
 		
-		JTextPane textCC = new JTextPane();
+		textCC = new JTextPane();
+		textCC.setBackground(UIManager.getColor("Button.background"));
 		textCC.setEditable(false);
 		textCC.setBounds(41, 110, 76, 20);
 		panel.add(textCC);
 		
-		JTextPane textCD = new JTextPane();
+		textCD = new JTextPane();
+		textCD.setBackground(UIManager.getColor("Button.background"));
 		textCD.setEditable(false);
 		textCD.setBounds(41, 135, 76, 20);
 		panel.add(textCD);
 		
-		JTextPane textACrosser = new JTextPane();
+		textACrosser = new JTextPane();
+		textACrosser.setBackground(UIManager.getColor("Button.background"));
 		textACrosser.setEditable(false);
-		textACrosser.setBounds(69, 167, 76, 20);
+		textACrosser.setBounds(80, 167, 65, 20);
 		panel.add(textACrosser);
 		
-		JTextPane textRCrosser = new JTextPane();
+		textRCrosser = new JTextPane();
+		textRCrosser.setBackground(UIManager.getColor("Button.background"));
 		textRCrosser.setEditable(false);
-		textRCrosser.setBounds(69, 198, 76, 20);
+		textRCrosser.setBounds(80, 198, 65, 20);
 		panel.add(textRCrosser);
 		
-		JTextPane textAMutator = new JTextPane();
+		textAMutator = new JTextPane();
+		textAMutator.setBackground(UIManager.getColor("Button.background"));
 		textAMutator.setEditable(false);
-		textAMutator.setBounds(69, 225, 76, 20);
+		textAMutator.setBounds(80, 225, 65, 20);
 		panel.add(textAMutator);
 		
-		JTextPane textRMutator = new JTextPane();
+		textRMutator = new JTextPane();
+		textRMutator.setBackground(UIManager.getColor("Button.background"));
 		textRMutator.setEditable(false);
-		textRMutator.setBounds(69, 251, 76, 20);
+		textRMutator.setBounds(80, 251, 65, 20);
 		panel.add(textRMutator);
 		
-		JTextPane textPSelector = new JTextPane();
+		textPSelector = new JTextPane();
+		textPSelector.setBackground(UIManager.getColor("Button.background"));
 		textPSelector.setEditable(false);
-		textPSelector.setBounds(69, 277, 76, 20);
+		textPSelector.setBounds(80, 277, 65, 20);
 		panel.add(textPSelector);
 		
-		JTextPane textPopReplacer = new JTextPane();
+		textPopReplacer = new JTextPane();
+		textPopReplacer.setBackground(UIManager.getColor("Button.background"));
 		textPopReplacer.setEditable(false);
-		textPopReplacer.setBounds(69, 302, 76, 20);
+		textPopReplacer.setBounds(80, 302, 65, 20);
 		panel.add(textPopReplacer);
 		
-		JTextPane textFCalculator = new JTextPane();
+		textFCalculator = new JTextPane();
+		textFCalculator.setBackground(UIManager.getColor("Button.background"));
 		textFCalculator.setEditable(false);
 		textFCalculator.setBounds(41, 351, 76, 20);
 		panel.add(textFCalculator);
@@ -502,7 +545,7 @@ public class MainWindow {
 		gbc_panel_2.gridy = 0;
 		panel2.add(panel_2, gbc_panel_2);
 		
-		final JTextArea textArea = new JTextArea();
+		textArea = new JTextArea();
 		JScrollPane scroll = new JScrollPane(textArea);
 	    scroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 		textArea.setRows(23);
@@ -539,7 +582,7 @@ public class MainWindow {
 		frame.getContentPane().add(tabbedPane);
 		
 		
-		final Document outputDoc = new DefaultStyledDocument();
+		outputDoc = new DefaultStyledDocument();
 		textArea.setDocument(outputDoc);
 		
 		/*
@@ -564,6 +607,20 @@ public class MainWindow {
 				dataContainer.setCD(Double.parseDouble(CDInput.getText()));
 				dataContainer.setPM(Double.parseDouble(PMInput.getText()));
 				dataContainer.setPC(Double.parseDouble(PCInput.getText()));
+				
+				textCC.setText(Double.toString(dataContainer.getCC()));
+				textCD.setText(Double.toString(dataContainer.getCD()));
+				textPC.setText(Double.toString(dataContainer.getPC()));
+				textPM.setText(Double.toString(dataContainer.getPM()));
+				
+				textACrosser.setText(ActivityCrosserList[dataContainer.getACrosserIndex()]);
+				textRCrosser.setText(ResourceCrosserList[dataContainer.getRCrosserIndex()]);
+				textAMutator.setText(ActivityMutatorList[dataContainer.getAMutatorIndex()]);
+				textRMutator.setText(ResourceMutatorList[dataContainer.getRMutatorIndex()]);
+				textPopReplacer.setText(PopulationReplacerList[dataContainer.getPReplacerIndex()]);
+				textPSelector.setText(ParentSelectorList[dataContainer.getPSelectorIndex()]);
+				
+				getTextACrosser().setText("");
 				tabbedPane.setEnabledAt(1, true);
 				tabbedPane.setSelectedIndex(1);
 				SolutionHandler sh = new SolutionHandler(32, 103, 4);
@@ -573,5 +630,9 @@ public class MainWindow {
 				thrd.start();
 			}
 		});
+	}
+
+	public JTextPane getTextACrosser() {
+		return textACrosser;
 	}
 }
