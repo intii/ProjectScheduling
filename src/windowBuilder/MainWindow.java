@@ -55,10 +55,10 @@ import java.awt.Font;
 public class MainWindow {
 
 	private JFrame frame;
-	private JTextField textField;
-	private JTextField textField_1;
-	private JTextField textField_2;
-	private JTextField textField_3;
+	private JTextField PMInput;
+	private JTextField PCInput;
+	private JTextField CCInput;
+	private JTextField CDInput;
 
 	/**
 	 * Launch the application.
@@ -119,31 +119,31 @@ public class MainWindow {
 		
 		JLabel lblPm = new JLabel("PM");
 		
-		textField = new JTextField();
-		textField.setColumns(10);
+		PMInput = new JTextField();
+		PMInput.setColumns(10);
 		
 		JLabel lblPc = new JLabel("PC");
 		
-		textField_1 = new JTextField();
-		textField_1.setColumns(10);
+		PCInput = new JTextField();
+		PCInput.setColumns(10);
 		
 		JLabel lblMutator = new JLabel("AMutator");
-		JComboBox comboBox = new JComboBox(ActivityMutatorList);
+		final JComboBox AMutatorChooser = new JComboBox(ActivityMutatorList);
 		
 		JLabel lblRmutator = new JLabel("RMutator");
-		JComboBox comboBox_1 = new JComboBox(ResourceMutatorList);
+		final JComboBox RMutatorChooser= new JComboBox(ResourceMutatorList);
 		
 		JLabel lblRcrosser = new JLabel("RCrosser");
-		JComboBox comboBox_2 = new JComboBox(ResourceCrosserList);
+		final JComboBox RCrosserChooser = new JComboBox(ResourceCrosserList);
 		
 		JLabel lblAcrosser = new JLabel("ACrosser");
-		JComboBox comboBox_3 = new JComboBox(ActivityCrosserList);
+		final JComboBox ACrosserChooser = new JComboBox(ActivityCrosserList);
 		
 		JLabel lblPselector = new JLabel("PSelector");
-		JComboBox comboBox_4 = new JComboBox(ParentSelectorList);
+		final JComboBox PSelectorChooser = new JComboBox(ParentSelectorList);
 		
 		JLabel lblPreplacer = new JLabel("PReplacer");
-		JComboBox comboBox_5 = new JComboBox(PopulationReplacerList);
+		final JComboBox PReplacerChooser = new JComboBox(PopulationReplacerList);
 		
 		JRadioButton rdbtnMultiple = new JRadioButton("Multiple");
 		
@@ -157,13 +157,13 @@ public class MainWindow {
 		
 		JLabel lblCc = new JLabel("CC");
 		
-		textField_2 = new JTextField();
-		textField_2.setColumns(10);
+		CCInput = new JTextField();
+		CCInput.setColumns(10);
 		
 		JLabel lblCd = new JLabel("CD");
 		
-		textField_3 = new JTextField();
-		textField_3.setColumns(10);
+		CDInput = new JTextField();
+		CDInput.setColumns(10);
 		
 		JButton btnRun = new JButton("Run -->");
 		
@@ -185,19 +185,19 @@ public class MainWindow {
 								.addGroup(gl_panel1.createSequentialGroup()
 									.addComponent(lblPm)
 									.addPreferredGap(ComponentPlacement.RELATED)
-									.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+									.addComponent(PMInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 									.addGap(18)
 									.addComponent(lblCc, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
 									.addGap(4)
-									.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, 86, GroupLayout.PREFERRED_SIZE))
+									.addComponent(CCInput, GroupLayout.PREFERRED_SIZE, 86, GroupLayout.PREFERRED_SIZE))
 								.addGroup(gl_panel1.createSequentialGroup()
 									.addComponent(lblPc)
 									.addPreferredGap(ComponentPlacement.RELATED)
-									.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+									.addComponent(PCInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 									.addGap(18)
 									.addComponent(lblCd, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
 									.addGap(4)
-									.addComponent(textField_3, GroupLayout.PREFERRED_SIZE, 86, GroupLayout.PREFERRED_SIZE)))
+									.addComponent(CDInput, GroupLayout.PREFERRED_SIZE, 86, GroupLayout.PREFERRED_SIZE)))
 							.addContainerGap(504, Short.MAX_VALUE))
 						.addGroup(gl_panel1.createSequentialGroup()
 							.addComponent(lblComponentsConfig)
@@ -213,11 +213,11 @@ public class MainWindow {
 						.addGroup(gl_panel1.createSequentialGroup()
 							.addComponent(lblMutator)
 							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(comboBox, GroupLayout.PREFERRED_SIZE, 67, GroupLayout.PREFERRED_SIZE)
+							.addComponent(AMutatorChooser, GroupLayout.PREFERRED_SIZE, 67, GroupLayout.PREFERRED_SIZE)
 							.addGap(55)
 							.addComponent(lblRmutator)
 							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(comboBox_3, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
+							.addComponent(ACrosserChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
 							.addContainerGap())
 						.addGroup(gl_panel1.createSequentialGroup()
 							.addComponent(lblPopulators)
@@ -225,11 +225,11 @@ public class MainWindow {
 						.addGroup(gl_panel1.createSequentialGroup()
 							.addComponent(lblPselector, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE)
 							.addGap(10)
-							.addComponent(comboBox_4, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
+							.addComponent(PSelectorChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
 							.addGap(53)
 							.addComponent(lblPreplacer, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE)
 							.addGap(10)
-							.addComponent(comboBox_5, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
+							.addComponent(PReplacerChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
 							.addContainerGap(427, Short.MAX_VALUE))
 						.addGroup(gl_panel1.createSequentialGroup()
 							.addComponent(lblFitnessCalculation)
@@ -240,11 +240,11 @@ public class MainWindow {
 								.addGroup(gl_panel1.createSequentialGroup()
 									.addComponent(lblAcrosser, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE)
 									.addGap(10)
-									.addComponent(comboBox_1, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
+									.addComponent(RMutatorChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
 									.addGap(52)
 									.addComponent(lblRcrosser, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE)
 									.addGap(10)
-									.addComponent(comboBox_2, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)))
+									.addComponent(RCrosserChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)))
 							.addContainerGap())))
 				.addGroup(gl_panel1.createSequentialGroup()
 					.addComponent(separator, GroupLayout.DEFAULT_SIZE, 740, Short.MAX_VALUE)
@@ -269,23 +269,23 @@ public class MainWindow {
 						.addGroup(gl_panel1.createSequentialGroup()
 							.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
 								.addComponent(lblPm)
-								.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+								.addComponent(PMInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 							.addPreferredGap(ComponentPlacement.RELATED)
 							.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
 								.addComponent(lblPc)
-								.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
+								.addComponent(PCInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
 						.addGroup(gl_panel1.createSequentialGroup()
 							.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
 								.addGroup(gl_panel1.createSequentialGroup()
 									.addGap(3)
 									.addComponent(lblCc))
-								.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+								.addComponent(CCInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 							.addPreferredGap(ComponentPlacement.RELATED)
 							.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
 								.addGroup(gl_panel1.createSequentialGroup()
 									.addGap(3)
 									.addComponent(lblCd))
-								.addComponent(textField_3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
+								.addComponent(CDInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
 					.addPreferredGap(ComponentPlacement.RELATED)
 					.addComponent(separator, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
 					.addPreferredGap(ComponentPlacement.RELATED)
@@ -293,8 +293,8 @@ public class MainWindow {
 					.addPreferredGap(ComponentPlacement.RELATED)
 					.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
 						.addComponent(lblMutator)
-						.addComponent(comboBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-						.addComponent(comboBox_3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(AMutatorChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(ACrosserChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 						.addComponent(lblRmutator))
 					.addPreferredGap(ComponentPlacement.UNRELATED)
 					.addComponent(separator_1, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
@@ -303,24 +303,24 @@ public class MainWindow {
 					.addGap(18)
 					.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
 						.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
-							.addComponent(comboBox_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+							.addComponent(RMutatorChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 							.addComponent(lblAcrosser))
 						.addGroup(gl_panel1.createSequentialGroup()
 							.addGap(3)
 							.addComponent(lblRcrosser))
-						.addComponent(comboBox_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+						.addComponent(RCrosserChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 					.addPreferredGap(ComponentPlacement.UNRELATED)
 					.addComponent(separator_2, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
 					.addGap(13)
 					.addComponent(lblPopulators)
 					.addGap(18)
 					.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
-						.addComponent(comboBox_4, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(PSelectorChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 						.addComponent(lblPselector)
 						.addGroup(gl_panel1.createSequentialGroup()
 							.addGap(3)
 							.addComponent(lblPreplacer))
-						.addComponent(comboBox_5, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+						.addComponent(PReplacerChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 					.addGap(25)
 					.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
 						.addGroup(gl_panel1.createSequentialGroup()
@@ -538,9 +538,7 @@ public class MainWindow {
 		tabbedPane.setEnabledAt(2, false);
 		frame.getContentPane().add(tabbedPane);
 		
-		/*
-		 * 
-		 */
+		
 		final Document outputDoc = new DefaultStyledDocument();
 		textArea.setDocument(outputDoc);
 		
@@ -551,13 +549,26 @@ public class MainWindow {
 			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
+				/*
+				 * Define Data Container
+				 */
+				DataContainer dataContainer = DataContainer.getInstance();
+				dataContainer.setACrosserIndex(ACrosserChooser.getSelectedIndex());
+				dataContainer.setAMutatorIndex(AMutatorChooser.getSelectedIndex());
+				dataContainer.setFCalculatorIndex(0);
+				dataContainer.setPReplacerIndex(PReplacerChooser.getSelectedIndex());
+				dataContainer.setPSelectorIndex(PSelectorChooser.getSelectedIndex());
+				dataContainer.setRCrosserIndex(RCrosserChooser.getSelectedIndex());
+				dataContainer.setRMutatorIndex(RMutatorChooser.getSelectedIndex());
+				dataContainer.setCC(Double.parseDouble(CCInput.getText()));
+				dataContainer.setCD(Double.parseDouble(CDInput.getText()));
+				dataContainer.setPM(Double.parseDouble(PMInput.getText()));
+				dataContainer.setPC(Double.parseDouble(PCInput.getText()));
 				tabbedPane.setEnabledAt(1, true);
 				tabbedPane.setSelectedIndex(1);
 				SolutionHandler sh = new SolutionHandler(32, 103, 4);
 				Executor exec = new Executor(sh);
-				int[] options = {0,0,0,0,0,0};
-				double[] configValues = {0.9,0.2,200,0.5};
-				exec.setEnvironment(configValues, options,outputDoc);
+				exec.setEnvironment(outputDoc);
 				Thread thrd = new Thread(exec);
 				thrd.start();
 			}

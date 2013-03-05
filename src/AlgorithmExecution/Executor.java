@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.Document;
 
+import windowBuilder.DataContainer;
+
 import Crosser.*;
 import DataHandler.SolutionHandler;
 import Mutator.*;
@@ -105,21 +107,22 @@ public class Executor implements Runnable {
 	 * @param 	configValues: the initial configuration values, probabilities and conditions
 	 * 			options: the kind of components that the user chose on the view
 	 */
-	public void setEnvironment( double[] configValues, int[] options, Document outputDoc ){
-		this.pc = configValues[0];
-		this.pm = configValues[1];
+	public void setEnvironment( Document outputDoc ){
+		DataContainer dataContainer = DataContainer.getInstance();
+		this.pc = dataContainer.getPC();
+		this.pm = dataContainer.getPM();
 		this.nInitialSolutions = 32;
-		this.cutCondition = (int)configValues[2];
-		this.crossDiscriminant = configValues[3];
+		this.cutCondition = (int)dataContainer.getCC();;
+		this.crossDiscriminant = dataContainer.getCD();
 		this.outputDoc = outputDoc;
 		this.fc = this.factoryFitnessCalculator(0);
 		this.ip = new InitialPopulator(this.sh);
-		this.ac = this.factoryActivityCrosser(options[0]);
-		this.am = this.factoryActivityMutator(options[1]);
-		this.rc = this.factoryResourceCrosser(options[3]);
-		this.rm = this.factoryResourceMutator(options[4]);
-		this.ps = factoryParentSelector(options[5]);
-		this.pr = this.factoryPopulationReplacer(options[2]);
+		this.ac = this.factoryActivityCrosser(dataContainer.getACrosserIndex());
+		this.am = this.factoryActivityMutator(dataContainer.getAMutatorIndex());
+		this.rc = this.factoryResourceCrosser(dataContainer.getRCrosserIndex());
+		this.rm = this.factoryResourceMutator(dataContainer.getRMutatorIndex());
+		this.ps = factoryParentSelector(dataContainer.getPSelectorIndex());
+		this.pr = this.factoryPopulationReplacer(dataContainer.getPReplacerIndex());
 
 	}
 	@Override
