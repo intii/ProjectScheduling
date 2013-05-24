@@ -15,7 +15,6 @@ public class PopulationReplacerC extends AbsPopulationReplacer{
 	
 	@Override
 	public ArrayList<Solution> replace(ArrayList<Pair> parents,ArrayList<Solution> offspring) {
-//		this.fc.updateFitness(offspring);
 		ArrayList<Solution> result = new ArrayList<Solution>();
 		//get the list of solutions from the list of pairs
 		ArrayList<Solution> resolvedParents = new ArrayList<Solution>();

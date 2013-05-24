@@ -14,6 +14,7 @@ public class ParetoSet {
 	public ParetoSet(AbsFitnessCalculator fc, ArrayList<Solution> solutions){
 		this.fc = fc;
 		this.initialSolutions = solutions;
+		this.fc.fitnessLoader(solutions);//Última línea
 	}
 	
 	public ArrayList<Solution> getSet(){

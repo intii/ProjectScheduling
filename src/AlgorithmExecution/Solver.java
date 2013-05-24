@@ -69,9 +69,6 @@ public class Solver {
 		//System.out.println(current);
 		while(j < this.cutCondition ){
 			//make parent couples
-//			System.out.println("==============================================");
-//			System.out.println("Parent Selection");
-//			System.out.println("==============================================");
 			ArrayList<Pair> parents = this.parentSelector.pairMaker(current);
 			ArrayList<Solution> offspring = new ArrayList<Solution>();
 			//Cross parent couples
@@ -94,7 +91,6 @@ public class Solver {
 			} catch (BadLocationException e) {
 				e.printStackTrace();
 			}
-			
 			j++;
 		}
 		return current;

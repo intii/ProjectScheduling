@@ -62,7 +62,6 @@ public class PopulationReplacerA  extends AbsPopulationReplacer{
 		double [][] distance = new double[2][2];
 		double [][] closest = new double[2][2];
 		int j = 0;
-//		fc.updateFitness(offspring);
 		for(int i = 0; i < parents.size() ; i++){
 			this.initMatrix(closest);
 			this.initMatrix(distance);

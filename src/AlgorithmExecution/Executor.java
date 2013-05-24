@@ -1,6 +1,10 @@
 package AlgorithmExecution;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
+import javax.swing.text.BadLocationException;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.Document;
 
@@ -13,6 +17,8 @@ import FitnessCalculator.*;
 import InitialPopulator.InitialPopulator;
 import PopulationReplacer.*;
 import ParentSelector.*;
+import Representation.ParetoSet;
+import Representation.SolutionsPrinter;
 import SolutionDecoder.AbsSolutionDecoder;
 import SolutionDecoder.SolutionDecoderA;
 import Structure.Solution;
@@ -45,8 +51,8 @@ public class Executor implements Runnable {
 	
 	private AbsActivityCrosser factoryActivityCrosser(int option){
 		switch(option){
-		case 0: return new ActivityCrosserA(this.nInitialSolutions);
-		case 1: return new ActivityCrosserB(this.nInitialSolutions);
+		case 0: return new ActivityCrosserA(sh.getActivities().size());
+		case 1: return new ActivityCrosserB(sh.getActivities().size());
 		default: return null;
 		}
 
@@ -54,8 +60,8 @@ public class Executor implements Runnable {
 
 	private AbsResourceCrosser factoryResourceCrosser(int option){
 		switch(option){
-		case 0: return new ResourceCrosserA(this.nInitialSolutions,this.crossDiscriminant);
-		case 1: return new OnePointResourceCrosser(this.nInitialSolutions);
+		case 0: return new ResourceCrosserA(sh.getActivities().size(),this.crossDiscriminant);
+		case 1: return new OnePointResourceCrosser(sh.getActivities().size());
 		default: return null;
 		}
 
@@ -88,6 +94,7 @@ public class Executor implements Runnable {
 		switch(option){
 		case 0: return new FitnessCalculatorEf(this.sd);
 		case 1: return new FitnessCalculatorMS(this.sd);
+		case 2: return new FitnessCalculatorMulti(this.sd,new FitnessCalculatorEf(this.sd) , new FitnessCalculatorMS(this.sd));
 		default: return null;
 		}
 	
@@ -111,11 +118,11 @@ public class Executor implements Runnable {
 		DataContainer dataContainer = DataContainer.getInstance();
 		this.pc = dataContainer.getPC();
 		this.pm = dataContainer.getPM();
-		this.nInitialSolutions = 32;
+		this.nInitialSolutions = dataContainer.getInitialSolutions();
 		this.cutCondition = (int)dataContainer.getCC();;
 		this.crossDiscriminant = dataContainer.getCD();
 		this.outputDoc = outputDoc;
-		this.fc = this.factoryFitnessCalculator(0);
+		this.fc = this.factoryFitnessCalculator(dataContainer.getFCalculatorIndex());
 		this.ip = new InitialPopulator(this.sh);
 		this.ac = this.factoryActivityCrosser(dataContainer.getACrosserIndex());
 		this.am = this.factoryActivityMutator(dataContainer.getAMutatorIndex());
@@ -139,5 +146,34 @@ public class Executor implements Runnable {
 		solv.setPopulationReplacer(this.pr);
 		solv.setCutCondition(this.cutCondition);
 		ArrayList<Solution> result = solv.solve(this.outputDoc);
+/*		try {
+			this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
+			this.outputDoc.insertString(this.outputDoc.getLength(), "====================RESULT SET =====================\n", null);
+			this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
+			for(Solution s : result){
+				this.outputDoc.insertString(this.outputDoc.getLength(), SolutionsPrinter.printOneSolution(s, fc), null);
+				
+			}
+		} catch (BadLocationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+*/		ParetoSet pareto = new ParetoSet(fc,result);
+		ArrayList<Solution> resultPareto = pareto.getSet();
+		
+
+		try {
+			this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
+			this.outputDoc.insertString(this.outputDoc.getLength(), "====================PARETO SET =====================\n", null);
+			this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
+			for(Solution s : resultPareto){
+				this.outputDoc.insertString(this.outputDoc.getLength(), SolutionsPrinter.printOneSolution(s, fc), null);
+				
+			}
+		} catch (BadLocationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 	}
 }

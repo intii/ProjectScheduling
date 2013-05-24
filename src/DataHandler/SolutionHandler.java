@@ -49,7 +49,7 @@ public class SolutionHandler {
 	
 	public boolean isSuccessor(int i, int j){
 		//returns true if i is a successor of j
-			return this.precedenceMatrix[j][i];
+		return this.precedenceMatrix[j][i];
 	}
 	
 	public ArrayList<Resource> getResources(){

@@ -44,6 +44,8 @@ public class SolutionsPrinter {
 		out = s.toString();
 		out += "\n";
 		out += fc.toString(s);
+		out += "\n";
+		out+= "************************************************************************** \n";
 		return out;
 	}
 }

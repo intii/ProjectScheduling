@@ -18,6 +18,8 @@ public class DataContainer {
 	private int RMutatorIndex;
 	private int PReplacerIndex;
 	private int PSelectorIndex;
+	private int initialSolutions;
+	
 	
 	private int FCalculatorIndex;
 	
@@ -75,6 +77,14 @@ public class DataContainer {
 
 	public void setAMutatorIndex(int aMutatorIndex) {
 		AMutatorIndex = aMutatorIndex;
+	}
+
+	public int getInitialSolutions() {
+		return initialSolutions;
+	}
+
+	public void setInitialSolutions(int initialSolutions) {
+		this.initialSolutions = initialSolutions;
 	}
 
 	public int getRMutatorIndex() {
