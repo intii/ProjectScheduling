@@ -54,8 +54,6 @@ public class SolutionDecoderA extends AbsSolutionDecoder {
 				newSch.setStartTime(minStart+i);
 				newSch.setEndTime(minStart+i + a.getDuration());
 			}
-//			System.out.println(a+" se retrasó "+i+" semanas.");
-//			System.out.println("Start time : " + newSch.getStartTime() + "End time :" + newSch.getEndTime());
 			TimeRange t = new TimeRange(newSch.getStartTime(),newSch.getEndTime()-1,a);
 			for(Resource r : s.getAssignedRes().get(a.getId()-1)){
 				usedResources.get(r.getId()-1).add(t);
@@ -73,7 +71,6 @@ public class SolutionDecoderA extends AbsSolutionDecoder {
 		IFilter bf = new BetweenFilter(sa.getStartTime(), sa.getEndTime(),usedRes);
 		for (Resource re : resListActivity){
 			if( !bf.isValid(re) ){
-//				System.out.println("Conflicto con el recurso "+re);
 				return true;
 			}	
 		}

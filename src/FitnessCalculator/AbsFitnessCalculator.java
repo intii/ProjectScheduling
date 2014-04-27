@@ -12,22 +12,27 @@ public abstract class AbsFitnessCalculator implements Comparator{
 	
 	protected ArrayList<Solution> population;
 	protected AbsSolutionDecoder sd;
+	protected boolean isMultiobjective = false;
 	
 	public AbsFitnessCalculator(AbsSolutionDecoder sd){
 		this.sd = sd;
 		this.population = new ArrayList<Solution>();
 	}
 	
+	public void setMultiobjective(boolean value) {
+		this.isMultiobjective = value;
+	}
+	public boolean isMultiobjective() {
+		return this.isMultiobjective;
+	}
 	public abstract boolean isBetter(Solution s1, Solution s2);
 	
 	public abstract boolean isEqual(Solution s1, Solution s2);
 	
-	//Reemplaza a la poblacion vieja por la nueva
 	public abstract void fitnessLoader(ArrayList<Solution> solutions);
 	
 	public abstract Double getFitness(Solution s);
 	
-	//Carga los hijos al vector y calcula su fitness
 	public void updateFitness(ArrayList<Solution> offspring) {
 		ArrayList<Solution> newpop = new ArrayList<Solution>(this.population);
 		newpop.addAll(offspring);

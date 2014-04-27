@@ -167,37 +167,39 @@ public class MainWindow {
 		JSeparator separator = new JSeparator();
 		
 		JLabel lblPopulationConfig = new JLabel("Population config");
+		lblPopulationConfig.setFont(new Font("SansSerif", Font.BOLD, 13));
 		
 		JLabel lblComponentsConfig = new JLabel("Mutator");
+		lblComponentsConfig.setFont(new Font("SansSerif", Font.BOLD, 13));
 		
-		JLabel lblPm = new JLabel("PM");
+		JLabel lblPm = new JLabel("Mutation Prob. ");
 		
 		PMInput = new JTextField();
 		PMInput.setText("0.2");
 		PMInput.setColumns(10);
 		
-		JLabel lblPc = new JLabel("PC");
+		JLabel lblPc = new JLabel("Crossing Prob.");
 		
 		PCInput = new JTextField();
 		PCInput.setText("0.9");
 		PCInput.setColumns(10);
 		
-		JLabel lblMutator = new JLabel("AMutator");
+		JLabel lblMutator = new JLabel("Activity Mutator");
 		AMutatorChooser = new JComboBox(ActivityMutatorList);
 		
-		JLabel lblRmutator = new JLabel("RMutator");
+		JLabel lblRmutator = new JLabel("Resource Mutator");
 		RMutatorChooser= new JComboBox(ResourceMutatorList);
 		
-		JLabel lblRcrosser = new JLabel("RCrosser");
+		JLabel lblRcrosser = new JLabel("Resource Crosser");
 		RCrosserChooser = new JComboBox(ResourceCrosserList);
 		
-		JLabel lblAcrosser = new JLabel("ACrosser");
+		JLabel lblAcrosser = new JLabel("Activity Crosser");
 		ACrosserChooser = new JComboBox(ActivityCrosserList);
 		
-		JLabel lblPselector = new JLabel("PSelector");
+		JLabel lblPselector = new JLabel("Parent Selector");
 		PSelectorChooser = new JComboBox(ParentSelectorList);
 		
-		JLabel lblPreplacer = new JLabel("PReplacer");
+		JLabel lblPreplacer = new JLabel("Population Replacer");
 		PReplacerChooser = new JComboBox(PopulationReplacerList);
 		
 		rdbtnEffectiveness = new JRadioButton("Effectivness");
@@ -206,24 +208,28 @@ public class MainWindow {
 		rdbtnMakespan = new JRadioButton("Makespan");
 		
 		JLabel lblCrosser = new JLabel("Crosser");
+		lblCrosser.setFont(new Font("SansSerif", Font.BOLD, 13));
 		
 		JLabel lblPopulators = new JLabel("Populators");
+		lblPopulators.setFont(new Font("SansSerif", Font.BOLD, 13));
 		
 		JLabel lblFitnessCalculation = new JLabel("Fitness Calculation");
+		lblFitnessCalculation.setFont(new Font("SansSerif", Font.BOLD, 13));
 		
-		JLabel lblCc = new JLabel("CC");
+		JLabel lblCc = new JLabel("Cicles");
 		
 		CCInput = new JTextField();
 		CCInput.setText("300");
 		CCInput.setColumns(10);
 		
-		JLabel lblNa = new JLabel("NA");
+		JLabel lblNa = new JLabel("Population size");
+		lblNa.setFont(new Font("SansSerif", Font.PLAIN, 12));
 		
 		ISInput = new JTextField();
 		ISInput.setText("30");
 		ISInput.setColumns(10);
 		
-		JLabel lblCd = new JLabel("CD");
+		JLabel lblCd = new JLabel("Cross discriminant");
 		
 		CDInput = new JTextField();
 		CDInput.setText("0.5");
@@ -241,23 +247,37 @@ public class MainWindow {
 		
 		GroupLayout gl_panel1 = new GroupLayout(configPanel);
 		gl_panel1.setHorizontalGroup(
-			gl_panel1.createParallelGroup(Alignment.TRAILING)
+			gl_panel1.createParallelGroup(Alignment.LEADING)
 				.addGroup(gl_panel1.createSequentialGroup()
-					.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
+					.addGroup(gl_panel1.createParallelGroup(Alignment.TRAILING)
+						.addGroup(gl_panel1.createSequentialGroup()
+							.addContainerGap()
+							.addComponent(separator_2, GroupLayout.DEFAULT_SIZE, 1082, Short.MAX_VALUE))
+						.addGroup(gl_panel1.createSequentialGroup()
+							.addContainerGap()
+							.addComponent(separator_1, GroupLayout.DEFAULT_SIZE, 1082, Short.MAX_VALUE))
 						.addGroup(gl_panel1.createSequentialGroup()
 							.addContainerGap()
 							.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
 								.addComponent(lblPopulationConfig)
+								.addComponent(lblComponentsConfig)
+								.addComponent(rdbtnEffectiveness)
+								.addComponent(lblFitnessCalculation)
+								.addComponent(lblCrosser)
+								.addGroup(gl_panel1.createSequentialGroup()
+									.addComponent(rdbtnMakespan)
+									.addPreferredGap(ComponentPlacement.RELATED, 556, Short.MAX_VALUE)
+									.addComponent(btnRun, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE))
 								.addGroup(gl_panel1.createSequentialGroup()
 									.addComponent(lblPm)
-									.addPreferredGap(ComponentPlacement.RELATED)
+									.addGap(8)
 									.addComponent(PMInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-									.addGap(14)
-									.addComponent(lblCc)
-									.addGap(4)
-									.addComponent(CCInput, GroupLayout.PREFERRED_SIZE, 86, GroupLayout.PREFERRED_SIZE)
 									.addPreferredGap(ComponentPlacement.UNRELATED)
-									.addComponent(lblNa, GroupLayout.PREFERRED_SIZE, 20, GroupLayout.PREFERRED_SIZE)
+									.addComponent(lblCc)
+									.addGap(18)
+									.addComponent(CCInput, GroupLayout.PREFERRED_SIZE, 86, GroupLayout.PREFERRED_SIZE)
+									.addGap(18)
+									.addComponent(lblNa, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE)
 									.addPreferredGap(ComponentPlacement.RELATED)
 									.addComponent(ISInput, GroupLayout.PREFERRED_SIZE, 86, GroupLayout.PREFERRED_SIZE))
 								.addGroup(gl_panel1.createSequentialGroup()
@@ -265,12 +285,9 @@ public class MainWindow {
 									.addPreferredGap(ComponentPlacement.RELATED)
 									.addComponent(PCInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 									.addPreferredGap(ComponentPlacement.UNRELATED)
-									.addComponent(lblCd, GroupLayout.PREFERRED_SIZE, 20, GroupLayout.PREFERRED_SIZE)
-									.addGap(4)
+									.addComponent(lblCd, GroupLayout.PREFERRED_SIZE, 115, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
 									.addComponent(CDInput, GroupLayout.PREFERRED_SIZE, 86, GroupLayout.PREFERRED_SIZE))
-								.addComponent(lblComponentsConfig)
-								.addComponent(rdbtnEffectiveness)
-								.addComponent(lblFitnessCalculation)
 								.addGroup(gl_panel1.createSequentialGroup()
 									.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
 										.addComponent(lblMutator)
@@ -282,108 +299,92 @@ public class MainWindow {
 										.addGroup(gl_panel1.createSequentialGroup()
 											.addGap(18)
 											.addComponent(ACrosserChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)))
-									.addPreferredGap(ComponentPlacement.RELATED)
-									.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
-										.addGroup(gl_panel1.createSequentialGroup()
-											.addGap(41)
-											.addComponent(lblRmutator)
-											.addPreferredGap(ComponentPlacement.UNRELATED)
-											.addComponent(RMutatorChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE))
-										.addGroup(gl_panel1.createSequentialGroup()
-											.addGap(30)
-											.addComponent(lblRcrosser, GroupLayout.PREFERRED_SIZE, 60, GroupLayout.PREFERRED_SIZE)
-											.addPreferredGap(ComponentPlacement.UNRELATED)
-											.addComponent(RCrosserChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE))))
-								.addComponent(lblCrosser)
-								.addGroup(gl_panel1.createSequentialGroup()
-									.addGroup(gl_panel1.createParallelGroup(Alignment.TRAILING, false)
-										.addComponent(lblPselector, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-										.addComponent(lblPopulators, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+									.addGap(41)
+									.addGroup(gl_panel1.createParallelGroup(Alignment.TRAILING)
+										.addComponent(lblRmutator)
+										.addComponent(lblRcrosser, GroupLayout.PREFERRED_SIZE, 102, GroupLayout.PREFERRED_SIZE))
 									.addPreferredGap(ComponentPlacement.UNRELATED)
-									.addComponent(PSelectorChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
-									.addGap(28)
-									.addComponent(lblPreplacer, GroupLayout.PREFERRED_SIZE, 67, GroupLayout.PREFERRED_SIZE)
-									.addPreferredGap(ComponentPlacement.RELATED)
-									.addComponent(PReplacerChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE))
-								.addGroup(gl_panel1.createParallelGroup(Alignment.TRAILING, false)
-									.addComponent(separator_3, GroupLayout.PREFERRED_SIZE, 740, GroupLayout.PREFERRED_SIZE)
-									.addGroup(gl_panel1.createSequentialGroup()
-										.addComponent(rdbtnMakespan)
-										.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-										.addComponent(btnRun, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE))))
+									.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
+										.addComponent(RCrosserChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
+										.addComponent(RMutatorChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE))))
 							.addGap(358))
-						.addComponent(separator, GroupLayout.DEFAULT_SIZE, 1090, Short.MAX_VALUE)
-						.addComponent(separator_1, GroupLayout.PREFERRED_SIZE, 740, GroupLayout.PREFERRED_SIZE)
-						.addComponent(separator_2, GroupLayout.PREFERRED_SIZE, 740, GroupLayout.PREFERRED_SIZE))
+						.addComponent(separator, GroupLayout.DEFAULT_SIZE, 1088, Short.MAX_VALUE))
 					.addContainerGap())
+				.addGroup(gl_panel1.createSequentialGroup()
+					.addContainerGap()
+					.addComponent(lblPopulators, GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE)
+					.addGap(1014))
+				.addGroup(gl_panel1.createSequentialGroup()
+					.addContainerGap()
+					.addComponent(lblPselector)
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addComponent(PSelectorChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
+					.addGap(28)
+					.addComponent(lblPreplacer, GroupLayout.PREFERRED_SIZE, 120, GroupLayout.PREFERRED_SIZE)
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addComponent(PReplacerChooser, GroupLayout.PREFERRED_SIZE, 70, GroupLayout.PREFERRED_SIZE)
+					.addContainerGap(692, Short.MAX_VALUE))
+				.addGroup(gl_panel1.createSequentialGroup()
+					.addContainerGap()
+					.addComponent(separator_3, GroupLayout.PREFERRED_SIZE, 740, GroupLayout.PREFERRED_SIZE)
+					.addContainerGap(348, Short.MAX_VALUE))
 		);
 		gl_panel1.setVerticalGroup(
 			gl_panel1.createParallelGroup(Alignment.LEADING)
 				.addGroup(gl_panel1.createSequentialGroup()
 					.addContainerGap()
 					.addComponent(lblPopulationConfig)
+					.addGap(9)
+					.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblPm)
+						.addComponent(PMInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(lblCc)
+						.addComponent(CCInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(lblNa)
+						.addComponent(ISInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 					.addPreferredGap(ComponentPlacement.RELATED)
-					.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
-						.addGroup(gl_panel1.createSequentialGroup()
-							.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
-								.addComponent(lblPm)
-								.addComponent(PMInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
-								.addComponent(lblPc)
-								.addComponent(PCInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
-						.addGroup(gl_panel1.createSequentialGroup()
-							.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
-								.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
-									.addComponent(CCInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-									.addComponent(lblNa)
-									.addComponent(ISInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-								.addGroup(gl_panel1.createSequentialGroup()
-									.addGap(3)
-									.addComponent(lblCc)))
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
-								.addGroup(gl_panel1.createSequentialGroup()
-									.addGap(3)
-									.addComponent(lblCd))
-								.addComponent(CDInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
-					.addPreferredGap(ComponentPlacement.RELATED)
+					.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblPc)
+						.addComponent(PCInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(lblCd)
+						.addComponent(CDInput, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(9)
 					.addComponent(separator, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
 					.addPreferredGap(ComponentPlacement.RELATED)
 					.addComponent(lblComponentsConfig)
 					.addPreferredGap(ComponentPlacement.RELATED)
 					.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
 						.addComponent(AMutatorChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
+							.addComponent(lblMutator)
+							.addComponent(lblRmutator)
+							.addComponent(RMutatorChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addComponent(separator_1, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addGroup(gl_panel1.createParallelGroup(Alignment.TRAILING)
 						.addGroup(gl_panel1.createSequentialGroup()
-							.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
-								.addComponent(lblMutator)
-								.addComponent(lblRmutator)
-								.addComponent(RMutatorChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(separator_1, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
 							.addComponent(lblCrosser)
 							.addGap(18)
-							.addGroup(gl_panel1.createParallelGroup(Alignment.LEADING)
-								.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
-									.addComponent(lblAcrosser)
-									.addComponent(ACrosserChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-								.addGroup(gl_panel1.createParallelGroup(Alignment.TRAILING)
-									.addComponent(RCrosserChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-									.addComponent(lblRcrosser)))
-							.addGap(13)
-							.addComponent(separator_2, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(lblPopulators)
-							.addGap(18)
 							.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
-								.addComponent(lblPselector)
-								.addComponent(lblPreplacer)
-								.addComponent(PReplacerChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-								.addComponent(PSelectorChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
-					.addPreferredGap(ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
-					.addComponent(separator_3, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
+								.addComponent(lblAcrosser)
+								.addComponent(ACrosserChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
+						.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
+							.addComponent(RCrosserChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+							.addComponent(lblRcrosser)))
+					.addGap(13)
+					.addComponent(separator_2, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
 					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(lblPopulators)
+					.addGap(18)
+					.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblPselector)
+						.addComponent(lblPreplacer)
+						.addComponent(PSelectorChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(PReplacerChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addComponent(separator_3, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
+					.addGap(18)
 					.addComponent(lblFitnessCalculation)
 					.addPreferredGap(ComponentPlacement.RELATED)
 					.addComponent(rdbtnEffectiveness)
@@ -391,7 +392,7 @@ public class MainWindow {
 					.addGroup(gl_panel1.createParallelGroup(Alignment.BASELINE)
 						.addComponent(btnRun)
 						.addComponent(rdbtnMakespan))
-					.addContainerGap(14, Short.MAX_VALUE))
+					.addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
 		);
 		configPanel.setLayout(gl_panel1);
 		

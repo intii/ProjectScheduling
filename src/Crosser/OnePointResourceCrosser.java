@@ -25,9 +25,9 @@ public class OnePointResourceCrosser extends AbsNPointResourceCrosser{
     	this.completeChild(child2, r2, 0, point);
     	this.completeChild(child2, r1, point, nActivity);
     	ArrayList<ArrayList<ArrayList<Resource>>> result= new ArrayList<ArrayList<ArrayList<Resource>>>();
-        result.add(child1);
-        result.add(child2);
-        return result;
+      result.add(child1);
+     	result.add(child2);
+      return result;
 	}
 
 }

@@ -17,7 +17,7 @@ public class ResourceCrosserA implements AbsResourceCrosser{
 	public ArrayList<ArrayList<ArrayList<Resource>>> getChildResources(ArrayList<ArrayList<Resource>> r1, ArrayList<ArrayList<Resource>> r2){
     	ArrayList<ArrayList<Resource>> child1= new ArrayList<ArrayList<Resource>>(this.nActivity);
     	ArrayList<ArrayList<Resource>> child2= new ArrayList<ArrayList<Resource>>(this.nActivity);
-    	//Inicializo las listas de recurso para cada actividad
+
 		for(int i=0;i<this.nActivity;i++){
 			ArrayList<Resource> aux1 = new ArrayList<Resource>();
 			ArrayList<Resource> aux2 = new ArrayList<Resource>();

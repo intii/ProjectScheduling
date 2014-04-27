@@ -19,6 +19,14 @@ public class FitnessCalculatorMulti extends AbsFitnessCalculator{
 		this.fc1 = fc1;
 		this.fc2 = fc2;
 	}
+	
+	public AbsFitnessCalculator getFc1() {
+		return fc1;
+	}
+
+	public AbsFitnessCalculator getFc2() {
+		return fc2;
+	}
 
 	@Override
 	public boolean isBetter(Solution s1, Solution s2) {

@@ -64,9 +64,7 @@ public class Solver {
 		//Generate a given number of initial solutions
 		ArrayList<Solution> current = new ArrayList<Solution>(this.numberInitialSolutions);
 		int j=0;
-		System.out.println("initial solutions : "+ this.numberInitialSolutions);
 		current = this.initialPopulator.getNInitialSolutions(this.numberInitialSolutions);
-		//System.out.println(current);
 		while(j < this.cutCondition ){
 			//make parent couples
 			ArrayList<Pair> parents = this.parentSelector.pairMaker(current);
@@ -85,7 +83,6 @@ public class Solver {
 			 * Output current solutions to a Document element
 			 */
 			String output = SolutionsPrinter.printSolutionSet(current, fitnessCalculator, j);
-			System.out.println(output);
 			try {
 				doc.insertString(doc.getLength(), output, null);
 			} catch (BadLocationException e) {

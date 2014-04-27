@@ -33,7 +33,6 @@ public class SolutionHandler {
 	
 	public void getAssignedResources(ArrayList<ArrayList<Resource>> res, boolean[][] a){
 			
-		//res.size = cantidad de actividades 
 		for(int i =0; i < res.size(); i++){
 			ArrayList<Resource> aux = res.get(i);
 			for(int j =0; j < aux.size(); j++){

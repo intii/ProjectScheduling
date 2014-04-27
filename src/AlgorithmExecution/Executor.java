@@ -3,13 +3,13 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 
 import javax.swing.text.BadLocationException;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.Document;
 
 import windowBuilder.DataContainer;
-
 import Crosser.*;
 import DataHandler.SolutionHandler;
 import Mutator.*;
@@ -39,6 +39,7 @@ public class Executor implements Runnable {
 	private double pm;
 	private int nInitialSolutions;
 	private int cutCondition;
+	private Boolean multiObjective;
 	private double crossDiscriminant;
 	private AbsSolutionDecoder sd;
 	private Document outputDoc;
@@ -123,6 +124,8 @@ public class Executor implements Runnable {
 		this.crossDiscriminant = dataContainer.getCD();
 		this.outputDoc = outputDoc;
 		this.fc = this.factoryFitnessCalculator(dataContainer.getFCalculatorIndex());
+		this.multiObjective = (dataContainer.getFCalculatorIndex() == 2);
+		this.fc.setMultiobjective(this.multiObjective);
 		this.ip = new InitialPopulator(this.sh);
 		this.ac = this.factoryActivityCrosser(dataContainer.getACrosserIndex());
 		this.am = this.factoryActivityMutator(dataContainer.getAMutatorIndex());
@@ -146,34 +149,35 @@ public class Executor implements Runnable {
 		solv.setPopulationReplacer(this.pr);
 		solv.setCutCondition(this.cutCondition);
 		ArrayList<Solution> result = solv.solve(this.outputDoc);
-/*		try {
-			this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
-			this.outputDoc.insertString(this.outputDoc.getLength(), "====================RESULT SET =====================\n", null);
-			this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
-			for(Solution s : result){
-				this.outputDoc.insertString(this.outputDoc.getLength(), SolutionsPrinter.printOneSolution(s, fc), null);
-				
+		if(!this.multiObjective){
+			try {
+				this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
+				this.outputDoc.insertString(this.outputDoc.getLength(), "====================RESULT SET =====================\n", null);
+				this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
+				for(Solution s : result){
+					this.outputDoc.insertString(this.outputDoc.getLength(), SolutionsPrinter.printOneSolution(s, fc), null);
+				}
+			} catch (BadLocationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
-		} catch (BadLocationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-*/		ParetoSet pareto = new ParetoSet(fc,result);
-		ArrayList<Solution> resultPareto = pareto.getSet();
 		
-
-		try {
-			this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
-			this.outputDoc.insertString(this.outputDoc.getLength(), "====================PARETO SET =====================\n", null);
-			this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
-			for(Solution s : resultPareto){
-				this.outputDoc.insertString(this.outputDoc.getLength(), SolutionsPrinter.printOneSolution(s, fc), null);
-				
+		} else {
+			ParetoSet pareto = new ParetoSet(fc,result);
+			HashSet<Solution> resultPareto = pareto.getSet();
+			try {
+				this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
+				this.outputDoc.insertString(this.outputDoc.getLength(), "====================PARETO SET =====================\n", null);
+				this.outputDoc.insertString(this.outputDoc.getLength(), "====================================================\n", null);
+				for(Solution s : resultPareto){
+					this.outputDoc.insertString(this.outputDoc.getLength(), SolutionsPrinter.printOneSolution(s, fc), null);
+					
+				}
+				this.outputDoc.insertString(this.outputDoc.getLength(), "Pareto Set Size: "+resultPareto.size(), null);
+			} catch (BadLocationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
-		} catch (BadLocationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
-
 	}
 }

@@ -60,10 +60,7 @@ public class DecodedSolution {
 				delayActivities(succ, i);
 		}
 	}
-	/*Es necesario recorrer el arreglo por si hay varias actividades finales 
-	 * que comienzan en el mismo tiempo y terminan en tiempos diferentes
-	 * 
-	 */
+
 	public int getFinalTime(){
 		int time = 0;
 		for(ScheduledActivity sa : this.schedule){

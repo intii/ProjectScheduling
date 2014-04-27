@@ -57,8 +57,6 @@ public class PopulationReplacerA  extends AbsPopulationReplacer{
 		 * H1|____|___|	
 		 * H2|____|___|	
 		 */	
-//		int [][] closest = new int[2][2];
-//		int [][] distance = new int[2][2];
 		double [][] distance = new double[2][2];
 		double [][] closest = new double[2][2];
 		int j = 0;

@@ -1,0 +1,3024 @@
+********************* CONFIGURATION *********************************
+Cut Condition: 300.0
+Cross discriminant: 0.5
+Cross Probability: 0.9
+Mutation Probability: 0.2
+Activity Crosser: A
+Resource Crosser: A
+Activity Mutator: A
+Resource Mutator: A
+Population Replacer: A
+Parent Selector: A
+Fitness Calculator: Multiple
+***************************** RESULTS *******************************
+Cycle 0
+Number of generated Solutions = 131464
+Maximum MS Fitness = 85.0
+Minimum MS Fitness = 61.0
+Average MS Fitness = 72.98
+
+Maximum Ef Fitness = 23.98728719419256
+Minimum Ef Fitness = 22.392906116333222
+Average Ef Fitness = 23.170274380081413
+----------------------------------------------------------
+Cycle 1
+Number of generated Solutions = 131554
+Maximum MS Fitness = 84.0
+Minimum MS Fitness = 61.0
+Average MS Fitness = 70.36
+
+Maximum Ef Fitness = 24.161328954506704
+Minimum Ef Fitness = 22.824104370338386
+Average Ef Fitness = 23.464243277310924
+----------------------------------------------------------
+Cycle 2
+Number of generated Solutions = 131646
+Maximum MS Fitness = 78.0
+Minimum MS Fitness = 61.0
+Average MS Fitness = 69.18
+
+Maximum Ef Fitness = 24.161328954506704
+Minimum Ef Fitness = 22.838608103320382
+Average Ef Fitness = 23.599942939810965
+----------------------------------------------------------
+Cycle 3
+Number of generated Solutions = 131744
+Maximum MS Fitness = 75.0
+Minimum MS Fitness = 61.0
+Average MS Fitness = 67.14
+
+Maximum Ef Fitness = 24.161328954506704
+Minimum Ef Fitness = 23.042426659728452
+Average Ef Fitness = 23.70360495602721
+----------------------------------------------------------
+Cycle 4
+Number of generated Solutions = 131840
+Maximum MS Fitness = 73.0
+Minimum MS Fitness = 61.0
+Average MS Fitness = 66.06
+
+Maximum Ef Fitness = 24.424674457398247
+Minimum Ef Fitness = 23.593953925443696
+Average Ef Fitness = 23.777883878426206
+----------------------------------------------------------
+Cycle 5
+Number of generated Solutions = 131940
+Maximum MS Fitness = 70.0
+Minimum MS Fitness = 61.0
+Average MS Fitness = 65.78
+
+Maximum Ef Fitness = 24.121176129213215
+Minimum Ef Fitness = 23.649491425028515
+Average Ef Fitness = 23.829490264353435
+----------------------------------------------------------
+Cycle 6
+Number of generated Solutions = 132036
+Maximum MS Fitness = 71.0
+Minimum MS Fitness = 61.0
+Average MS Fitness = 64.62
+
+Maximum Ef Fitness = 24.22273371272092
+Minimum Ef Fitness = 23.649491425028515
+Average Ef Fitness = 23.932084382738605
+----------------------------------------------------------
+Cycle 7
+Number of generated Solutions = 132126
+Maximum MS Fitness = 70.0
+Minimum MS Fitness = 61.0
+Average MS Fitness = 63.64
+
+Maximum Ef Fitness = 24.379691959787863
+Minimum Ef Fitness = 23.874307036385034
+Average Ef Fitness = 23.992242071057674
+----------------------------------------------------------
+Cycle 8
+Number of generated Solutions = 132218
+Maximum MS Fitness = 70.0
+Minimum MS Fitness = 61.0
+Average MS Fitness = 63.64
+
+Maximum Ef Fitness = 24.39567288707314
+Minimum Ef Fitness = 23.895259417337417
+Average Ef Fitness = 24.035678945649412
+----------------------------------------------------------
+Cycle 9
+Number of generated Solutions = 132318
+Maximum MS Fitness = 70.0
+Minimum MS Fitness = 57.0
+Average MS Fitness = 64.3
+
+Maximum Ef Fitness = 24.565117331517584
+Minimum Ef Fitness = 23.895259417337417
+Average Ef Fitness = 24.146694486516616
+----------------------------------------------------------
+Cycle 10
+Number of generated Solutions = 132416
+Maximum MS Fitness = 70.0
+Minimum MS Fitness = 57.0
+Average MS Fitness = 63.98
+
+Maximum Ef Fitness = 24.599265960666216
+Minimum Ef Fitness = 23.895259417337417
+Average Ef Fitness = 24.273200907688505
+----------------------------------------------------------
+Cycle 11
+Number of generated Solutions = 132506
+Maximum MS Fitness = 70.0
+Minimum MS Fitness = 57.0
+Average MS Fitness = 63.18
+
+Maximum Ef Fitness = 24.891586978664975
+Minimum Ef Fitness = 23.895259417337417
+Average Ef Fitness = 24.366301218985626
+----------------------------------------------------------
+Cycle 12
+Number of generated Solutions = 132598
+Maximum MS Fitness = 67.0
+Minimum MS Fitness = 56.0
+Average MS Fitness = 61.46
+
+Maximum Ef Fitness = 24.821882037399938
+Minimum Ef Fitness = 23.895259417337417
+Average Ef Fitness = 24.463579670287096
+----------------------------------------------------------
+Cycle 13
+Number of generated Solutions = 132694
+Maximum MS Fitness = 67.0
+Minimum MS Fitness = 56.0
+Average MS Fitness = 60.12
+
+Maximum Ef Fitness = 25.017275255293157
+Minimum Ef Fitness = 23.895259417337417
+Average Ef Fitness = 24.54601012795105
+----------------------------------------------------------
+Cycle 14
+Number of generated Solutions = 132794
+Maximum MS Fitness = 65.0
+Minimum MS Fitness = 56.0
+Average MS Fitness = 59.42
+
+Maximum Ef Fitness = 25.10033081084871
+Minimum Ef Fitness = 23.895259417337417
+Average Ef Fitness = 24.702598891361554
+----------------------------------------------------------
+Cycle 15
+Number of generated Solutions = 132886
+Maximum MS Fitness = 61.0
+Minimum MS Fitness = 56.0
+Average MS Fitness = 58.52
+
+Maximum Ef Fitness = 25.10033081084871
+Minimum Ef Fitness = 24.51584339005694
+Average Ef Fitness = 24.79639043762432
+----------------------------------------------------------
+Cycle 16
+Number of generated Solutions = 132984
+Maximum MS Fitness = 64.0
+Minimum MS Fitness = 56.0
+Average MS Fitness = 58.74
+
+Maximum Ef Fitness = 25.019775255293155
+Minimum Ef Fitness = 24.665172080689977
+Average Ef Fitness = 24.85030132656488
+----------------------------------------------------------
+Cycle 17
+Number of generated Solutions = 133080
+Maximum MS Fitness = 63.0
+Minimum MS Fitness = 56.0
+Average MS Fitness = 58.22
+
+Maximum Ef Fitness = 25.16394192195982
+Minimum Ef Fitness = 24.665843390056942
+Average Ef Fitness = 24.908420571812385
+----------------------------------------------------------
+Cycle 18
+Number of generated Solutions = 133168
+Maximum MS Fitness = 61.0
+Minimum MS Fitness = 56.0
+Average MS Fitness = 57.94
+
+Maximum Ef Fitness = 25.16394192195982
+Minimum Ef Fitness = 24.74938203739994
+Average Ef Fitness = 24.943523812291705
+----------------------------------------------------------
+Cycle 19
+Number of generated Solutions = 133262
+Maximum MS Fitness = 60.0
+Minimum MS Fitness = 56.0
+Average MS Fitness = 57.48
+
+Maximum Ef Fitness = 25.16394192195982
+Minimum Ef Fitness = 24.75759632311422
+Average Ef Fitness = 24.965206496274394
+----------------------------------------------------------
+Cycle 20
+Number of generated Solutions = 133362
+Maximum MS Fitness = 61.0
+Minimum MS Fitness = 56.0
+Average MS Fitness = 57.6
+
+Maximum Ef Fitness = 25.183664144182043
+Minimum Ef Fitness = 24.76188203739994
+Average Ef Fitness = 25.02177965644756
+----------------------------------------------------------
+Cycle 21
+Number of generated Solutions = 133456
+Maximum MS Fitness = 58.0
+Minimum MS Fitness = 56.0
+Average MS Fitness = 57.82
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 24.82620743422533
+Average Ef Fitness = 25.107293653561545
+----------------------------------------------------------
+Cycle 22
+Number of generated Solutions = 133550
+Maximum MS Fitness = 58.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 57.92
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.01755303307093
+Average Ef Fitness = 25.16936414418204
+----------------------------------------------------------
+Cycle 23
+Number of generated Solutions = 133644
+Maximum MS Fitness = 58.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 57.76
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.142275255293157
+Average Ef Fitness = 25.22214192195981
+----------------------------------------------------------
+Cycle 24
+Number of generated Solutions = 133742
+Maximum MS Fitness = 58.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 57.6
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.16394192195982
+Average Ef Fitness = 25.266375255293145
+----------------------------------------------------------
+Cycle 25
+Number of generated Solutions = 133836
+Maximum MS Fitness = 58.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 57.28
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.16394192195982
+Average Ef Fitness = 25.283641921959813
+----------------------------------------------------------
+Cycle 26
+Number of generated Solutions = 133928
+Maximum MS Fitness = 58.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 56.72
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.268941921959822
+Average Ef Fitness = 25.284941921959813
+----------------------------------------------------------
+Cycle 27
+Number of generated Solutions = 134026
+Maximum MS Fitness = 58.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 56.08
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.268941921959822
+Average Ef Fitness = 25.28614192195981
+----------------------------------------------------------
+Cycle 28
+Number of generated Solutions = 134120
+Maximum MS Fitness = 58.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 55.92
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.268941921959822
+Average Ef Fitness = 25.28734192195981
+----------------------------------------------------------
+Cycle 29
+Number of generated Solutions = 134220
+Maximum MS Fitness = 58.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.88
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.268941921959822
+Average Ef Fitness = 25.28814192195981
+----------------------------------------------------------
+Cycle 30
+Number of generated Solutions = 134312
+Maximum MS Fitness = 58.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.16
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 31
+Number of generated Solutions = 134412
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 32
+Number of generated Solutions = 134502
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 33
+Number of generated Solutions = 134598
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 34
+Number of generated Solutions = 134698
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 35
+Number of generated Solutions = 134792
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 36
+Number of generated Solutions = 134882
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 37
+Number of generated Solutions = 134976
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 38
+Number of generated Solutions = 135074
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 39
+Number of generated Solutions = 135172
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 40
+Number of generated Solutions = 135272
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 41
+Number of generated Solutions = 135360
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 42
+Number of generated Solutions = 135458
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 43
+Number of generated Solutions = 135558
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 44
+Number of generated Solutions = 135656
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 45
+Number of generated Solutions = 135746
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 46
+Number of generated Solutions = 135838
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 47
+Number of generated Solutions = 135934
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 48
+Number of generated Solutions = 136028
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 49
+Number of generated Solutions = 136118
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 50
+Number of generated Solutions = 136216
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 51
+Number of generated Solutions = 136314
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 52
+Number of generated Solutions = 136410
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 53
+Number of generated Solutions = 136506
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 54
+Number of generated Solutions = 136602
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 55
+Number of generated Solutions = 136700
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 56
+Number of generated Solutions = 136794
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 57
+Number of generated Solutions = 136884
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 58
+Number of generated Solutions = 136980
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 59
+Number of generated Solutions = 137074
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 60
+Number of generated Solutions = 137164
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 61
+Number of generated Solutions = 137258
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 62
+Number of generated Solutions = 137354
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 63
+Number of generated Solutions = 137448
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 64
+Number of generated Solutions = 137548
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 65
+Number of generated Solutions = 137642
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 66
+Number of generated Solutions = 137736
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 67
+Number of generated Solutions = 137828
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 68
+Number of generated Solutions = 137926
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 69
+Number of generated Solutions = 138024
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 70
+Number of generated Solutions = 138120
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 71
+Number of generated Solutions = 138214
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 72
+Number of generated Solutions = 138304
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 73
+Number of generated Solutions = 138396
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 74
+Number of generated Solutions = 138484
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 75
+Number of generated Solutions = 138578
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 76
+Number of generated Solutions = 138672
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 77
+Number of generated Solutions = 138766
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 78
+Number of generated Solutions = 138858
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 79
+Number of generated Solutions = 138954
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 80
+Number of generated Solutions = 139054
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 81
+Number of generated Solutions = 139150
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 82
+Number of generated Solutions = 139248
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 83
+Number of generated Solutions = 139344
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 84
+Number of generated Solutions = 139436
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 85
+Number of generated Solutions = 139532
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 86
+Number of generated Solutions = 139630
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 87
+Number of generated Solutions = 139728
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 88
+Number of generated Solutions = 139826
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 89
+Number of generated Solutions = 139924
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 90
+Number of generated Solutions = 140022
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 91
+Number of generated Solutions = 140116
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 92
+Number of generated Solutions = 140208
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 93
+Number of generated Solutions = 140304
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 94
+Number of generated Solutions = 140398
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 95
+Number of generated Solutions = 140490
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 96
+Number of generated Solutions = 140584
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 97
+Number of generated Solutions = 140682
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 98
+Number of generated Solutions = 140774
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 99
+Number of generated Solutions = 140868
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 100
+Number of generated Solutions = 140956
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 101
+Number of generated Solutions = 141048
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 102
+Number of generated Solutions = 141142
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 103
+Number of generated Solutions = 141238
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 104
+Number of generated Solutions = 141326
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 105
+Number of generated Solutions = 141418
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 106
+Number of generated Solutions = 141512
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 107
+Number of generated Solutions = 141610
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 108
+Number of generated Solutions = 141706
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 109
+Number of generated Solutions = 141798
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 110
+Number of generated Solutions = 141892
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 111
+Number of generated Solutions = 141986
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 112
+Number of generated Solutions = 142082
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 113
+Number of generated Solutions = 142176
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 114
+Number of generated Solutions = 142270
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 115
+Number of generated Solutions = 142362
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 116
+Number of generated Solutions = 142460
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 117
+Number of generated Solutions = 142556
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 118
+Number of generated Solutions = 142648
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 119
+Number of generated Solutions = 142742
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 120
+Number of generated Solutions = 142836
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 121
+Number of generated Solutions = 142928
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 122
+Number of generated Solutions = 143024
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 123
+Number of generated Solutions = 143122
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 124
+Number of generated Solutions = 143216
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 125
+Number of generated Solutions = 143312
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 126
+Number of generated Solutions = 143408
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 127
+Number of generated Solutions = 143506
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 128
+Number of generated Solutions = 143594
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 129
+Number of generated Solutions = 143694
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 130
+Number of generated Solutions = 143794
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 131
+Number of generated Solutions = 143890
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 132
+Number of generated Solutions = 143984
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 133
+Number of generated Solutions = 144080
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 134
+Number of generated Solutions = 144178
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 135
+Number of generated Solutions = 144274
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 136
+Number of generated Solutions = 144364
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 137
+Number of generated Solutions = 144462
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 138
+Number of generated Solutions = 144554
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 139
+Number of generated Solutions = 144648
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 140
+Number of generated Solutions = 144744
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 141
+Number of generated Solutions = 144842
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 142
+Number of generated Solutions = 144938
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 143
+Number of generated Solutions = 145032
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 144
+Number of generated Solutions = 145126
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 145
+Number of generated Solutions = 145222
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 146
+Number of generated Solutions = 145312
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 147
+Number of generated Solutions = 145410
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 148
+Number of generated Solutions = 145504
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 149
+Number of generated Solutions = 145598
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 150
+Number of generated Solutions = 145694
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 151
+Number of generated Solutions = 145790
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 152
+Number of generated Solutions = 145884
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 153
+Number of generated Solutions = 145984
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 154
+Number of generated Solutions = 146080
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 155
+Number of generated Solutions = 146178
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 156
+Number of generated Solutions = 146274
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 157
+Number of generated Solutions = 146374
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 158
+Number of generated Solutions = 146464
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 159
+Number of generated Solutions = 146558
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 160
+Number of generated Solutions = 146652
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 161
+Number of generated Solutions = 146744
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 162
+Number of generated Solutions = 146836
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 163
+Number of generated Solutions = 146932
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 164
+Number of generated Solutions = 147028
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 165
+Number of generated Solutions = 147126
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 166
+Number of generated Solutions = 147222
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 167
+Number of generated Solutions = 147312
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 168
+Number of generated Solutions = 147406
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 169
+Number of generated Solutions = 147506
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 170
+Number of generated Solutions = 147596
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 171
+Number of generated Solutions = 147694
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 172
+Number of generated Solutions = 147792
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 173
+Number of generated Solutions = 147884
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 174
+Number of generated Solutions = 147976
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 175
+Number of generated Solutions = 148074
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 176
+Number of generated Solutions = 148172
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 177
+Number of generated Solutions = 148270
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 178
+Number of generated Solutions = 148366
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 179
+Number of generated Solutions = 148458
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 180
+Number of generated Solutions = 148554
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 181
+Number of generated Solutions = 148648
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 182
+Number of generated Solutions = 148742
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 183
+Number of generated Solutions = 148836
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 184
+Number of generated Solutions = 148922
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 185
+Number of generated Solutions = 149010
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 186
+Number of generated Solutions = 149102
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 187
+Number of generated Solutions = 149200
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 188
+Number of generated Solutions = 149296
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 189
+Number of generated Solutions = 149392
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 190
+Number of generated Solutions = 149484
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 191
+Number of generated Solutions = 149578
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 192
+Number of generated Solutions = 149676
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 193
+Number of generated Solutions = 149774
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 194
+Number of generated Solutions = 149870
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 195
+Number of generated Solutions = 149966
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 196
+Number of generated Solutions = 150060
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 197
+Number of generated Solutions = 150156
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 198
+Number of generated Solutions = 150252
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 199
+Number of generated Solutions = 150346
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 200
+Number of generated Solutions = 150434
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 201
+Number of generated Solutions = 150524
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 202
+Number of generated Solutions = 150620
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 203
+Number of generated Solutions = 150716
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 204
+Number of generated Solutions = 150812
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 205
+Number of generated Solutions = 150908
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 206
+Number of generated Solutions = 151006
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 207
+Number of generated Solutions = 151098
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 208
+Number of generated Solutions = 151198
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 209
+Number of generated Solutions = 151294
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 210
+Number of generated Solutions = 151390
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 211
+Number of generated Solutions = 151484
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 212
+Number of generated Solutions = 151576
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 213
+Number of generated Solutions = 151672
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 214
+Number of generated Solutions = 151768
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 215
+Number of generated Solutions = 151864
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 216
+Number of generated Solutions = 151958
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 217
+Number of generated Solutions = 152050
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 218
+Number of generated Solutions = 152142
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 219
+Number of generated Solutions = 152240
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 220
+Number of generated Solutions = 152332
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 221
+Number of generated Solutions = 152428
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 222
+Number of generated Solutions = 152516
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 223
+Number of generated Solutions = 152614
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 224
+Number of generated Solutions = 152704
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 225
+Number of generated Solutions = 152796
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 226
+Number of generated Solutions = 152890
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 227
+Number of generated Solutions = 152980
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 228
+Number of generated Solutions = 153076
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 229
+Number of generated Solutions = 153170
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 230
+Number of generated Solutions = 153264
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 231
+Number of generated Solutions = 153358
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 232
+Number of generated Solutions = 153452
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 233
+Number of generated Solutions = 153550
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 234
+Number of generated Solutions = 153646
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 235
+Number of generated Solutions = 153744
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 236
+Number of generated Solutions = 153840
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 237
+Number of generated Solutions = 153928
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 238
+Number of generated Solutions = 154022
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 239
+Number of generated Solutions = 154122
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 240
+Number of generated Solutions = 154218
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 241
+Number of generated Solutions = 154314
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 242
+Number of generated Solutions = 154412
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 243
+Number of generated Solutions = 154508
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 244
+Number of generated Solutions = 154602
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 245
+Number of generated Solutions = 154688
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 246
+Number of generated Solutions = 154788
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 247
+Number of generated Solutions = 154878
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 248
+Number of generated Solutions = 154970
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 249
+Number of generated Solutions = 155060
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 250
+Number of generated Solutions = 155158
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 251
+Number of generated Solutions = 155256
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 252
+Number of generated Solutions = 155354
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 253
+Number of generated Solutions = 155448
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 254
+Number of generated Solutions = 155544
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 255
+Number of generated Solutions = 155640
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 256
+Number of generated Solutions = 155736
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 257
+Number of generated Solutions = 155826
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 258
+Number of generated Solutions = 155926
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 259
+Number of generated Solutions = 156020
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 260
+Number of generated Solutions = 156114
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 261
+Number of generated Solutions = 156212
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 262
+Number of generated Solutions = 156310
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 263
+Number of generated Solutions = 156404
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 264
+Number of generated Solutions = 156498
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 265
+Number of generated Solutions = 156588
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 266
+Number of generated Solutions = 156684
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 267
+Number of generated Solutions = 156780
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 268
+Number of generated Solutions = 156868
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 269
+Number of generated Solutions = 156964
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 270
+Number of generated Solutions = 157060
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 271
+Number of generated Solutions = 157158
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 272
+Number of generated Solutions = 157252
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 273
+Number of generated Solutions = 157340
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 274
+Number of generated Solutions = 157430
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 275
+Number of generated Solutions = 157524
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 276
+Number of generated Solutions = 157620
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 277
+Number of generated Solutions = 157718
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 278
+Number of generated Solutions = 157812
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 279
+Number of generated Solutions = 157904
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 280
+Number of generated Solutions = 158002
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 281
+Number of generated Solutions = 158098
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 282
+Number of generated Solutions = 158192
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 283
+Number of generated Solutions = 158290
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 284
+Number of generated Solutions = 158382
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 285
+Number of generated Solutions = 158474
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 286
+Number of generated Solutions = 158572
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 287
+Number of generated Solutions = 158668
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 288
+Number of generated Solutions = 158766
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 289
+Number of generated Solutions = 158860
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 290
+Number of generated Solutions = 158954
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 291
+Number of generated Solutions = 159054
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 292
+Number of generated Solutions = 159152
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 293
+Number of generated Solutions = 159246
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 294
+Number of generated Solutions = 159338
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 295
+Number of generated Solutions = 159436
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 296
+Number of generated Solutions = 159532
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 297
+Number of generated Solutions = 159632
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 298
+Number of generated Solutions = 159726
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+Cycle 299
+Number of generated Solutions = 159822
+Maximum MS Fitness = 54.0
+Minimum MS Fitness = 54.0
+Average MS Fitness = 54.0
+
+Maximum Ef Fitness = 25.28894192195982
+Minimum Ef Fitness = 25.28894192195982
+Average Ef Fitness = 25.288941921959808
+----------------------------------------------------------
+====================================================
+====================PARETO SET =====================
+====================================================
+Solution 133773
+Activities : 1 2 7 4 3 5 11 13 15 18 6 12 9 20 8 10 22 17 24 26 19 21 28 16 14 23 29 25 31 27 30 32 
+Resource for 0: []Resource for 1: [Resource [id=13, skill=1, effectivness=1.0], Resource [id=93, skill=4, effectivness=1.0], Resource [id=88, skill=4, effectivness=1.0]]Resource for 2: [Resource [id=27, skill=1, effectivness=0.3], Resource [id=6, skill=1, effectivness=1.0], Resource [id=13, skill=1, effectivness=1.0], Resource [id=23, skill=1, effectivness=0.7], Resource [id=14, skill=1, effectivness=1.0], Resource [id=1, skill=1, effectivness=1.0], Resource [id=24, skill=1, effectivness=0.8], Resource [id=44, skill=2, effectivness=0.1], Resource [id=40, skill=2, effectivness=1.0], Resource [id=38, skill=2, effectivness=1.0], Resource [id=41, skill=2, effectivness=1.0], Resource [id=42, skill=2, effectivness=1.0], Resource [id=53, skill=2, effectivness=0.1], Resource [id=36, skill=2, effectivness=1.0], Resource [id=78, skill=3, effectivness=0.5], Resource [id=69, skill=3, effectivness=0.3], Resource [id=67, skill=3, effectivness=1.0]]Resource for 3: [Resource [id=16, skill=1, effectivness=1.0], Resource [id=29, skill=1, effectivness=0.5], Resource [id=1, skill=1, effectivness=1.0], Resource [id=6, skill=1, effectivness=1.0], Resource [id=22, skill=1, effectivness=0.6], Resource [id=12, skill=1, effectivness=1.0], Resource [id=11, skill=1, effectivness=1.0], Resource [id=3, skill=1, effectivness=1.0], Resource [id=17, skill=1, effectivness=0.1], Resource [id=2, skill=1, effectivness=1.0], Resource [id=68, skill=3, effectivness=0.2], Resource [id=66, skill=3, effectivness=1.0], Resource [id=73, skill=3, effectivness=0.7], Resource [id=57, skill=3, effectivness=1.0], Resource [id=59, skill=3, effectivness=1.0], Resource [id=60, skill=3, effectivness=1.0], Resource [id=67, skill=3, effectivness=1.0], Resource [id=64, skill=3, effectivness=1.0], Resource [id=58, skill=3, effectivness=1.0], Resource [id=63, skill=3, effectivness=1.0], Resource [id=96, skill=4, effectivness=0.4], Resource [id=81, skill=4, effectivness=1.0], Resource [id=101, skill=4, effectivness=0.9]]Resource for 4: [Resource [id=25, skill=1, effectivness=0.9], Resource [id=57, skill=3, effectivness=1.0], Resource [id=64, skill=3, effectivness=1.0], Resource [id=78, skill=3, effectivness=0.5], Resource [id=67, skill=3, effectivness=1.0], Resource [id=66, skill=3, effectivness=1.0], Resource [id=72, skill=3, effectivness=0.6], Resource [id=65, skill=3, effectivness=1.0], Resource [id=63, skill=3, effectivness=1.0], Resource [id=100, skill=4, effectivness=0.8], Resource [id=97, skill=4, effectivness=0.5], Resource [id=82, skill=4, effectivness=1.0], Resource [id=84, skill=4, effectivness=1.0], Resource [id=101, skill=4, effectivness=0.9], Resource [id=86, skill=4, effectivness=1.0], Resource [id=83, skill=4, effectivness=1.0], Resource [id=85, skill=4, effectivness=1.0], Resource [id=88, skill=4, effectivness=1.0]]Resource for 5: [Resource [id=72, skill=3, effectivness=0.6], Resource [id=60, skill=3, effectivness=1.0], Resource [id=66, skill=3, effectivness=1.0], Resource [id=55, skill=3, effectivness=1.0], Resource [id=73, skill=3, effectivness=0.7], Resource [id=91, skill=4, effectivness=1.0], Resource [id=87, skill=4, effectivness=1.0], Resource [id=101, skill=4, effectivness=0.9], Resource [id=86, skill=4, effectivness=1.0], Resource [id=93, skill=4, effectivness=1.0], Resource [id=90, skill=4, effectivness=1.0], Resource [id=96, skill=4, effectivness=0.4], Resource [id=81, skill=4, effectivness=1.0], Resource [id=100, skill=4, effectivness=0.8]]Resource for 6: [Resource [id=16, skill=1, effectivness=1.0], Resource [id=30, skill=1, effectivness=0.6], Resource [id=2, skill=1, effectivness=1.0], Resource [id=7, skill=1, effectivness=1.0], Resource [id=10, skill=1, effectivness=1.0], Resource [id=75, skill=3, effectivness=0.9], Resource [id=72, skill=3, effectivness=0.6], Resource [id=76, skill=3, effectivness=0.3], Resource [id=65, skill=3, effectivness=1.0], Resource [id=73, skill=3, effectivness=0.7], Resource [id=58, skill=3, effectivness=1.0], Resource [id=61, skill=3, effectivness=1.0], Resource [id=77, skill=3, effectivness=0.4], Resource [id=62, skill=3, effectivness=1.0], Resource [id=79, skill=3, effectivness=0.6]]Resource for 7: [Resource [id=62, skill=3, effectivness=1.0], Resource [id=78, skill=3, effectivness=0.5], Resource [id=76, skill=3, effectivness=0.3], Resource [id=86, skill=4, effectivness=1.0], Resource [id=93, skill=4, effectivness=1.0], Resource [id=91, skill=4, effectivness=1.0], Resource [id=88, skill=4, effectivness=1.0], Resource [id=87, skill=4, effectivness=1.0], Resource [id=100, skill=4, effectivness=0.8], Resource [id=99, skill=4, effectivness=0.7], Resource [id=101, skill=4, effectivness=0.9], Resource [id=89, skill=4, effectivness=1.0]]Resource for 8: [Resource [id=49, skill=2, effectivness=0.6], Resource [id=42, skill=2, effectivness=1.0], Resource [id=41, skill=2, effectivness=1.0], Resource [id=33, skill=2, effectivness=1.0], Resource [id=38, skill=2, effectivness=1.0], Resource [id=69, skill=3, effectivness=0.3]]Resource for 9: [Resource [id=13, skill=1, effectivness=1.0], Resource [id=15, skill=1, effectivness=1.0], Resource [id=25, skill=1, effectivness=0.9], Resource [id=9, skill=1, effectivness=1.0], Resource [id=23, skill=1, effectivness=0.7], Resource [id=16, skill=1, effectivness=1.0], Resource [id=19, skill=1, effectivness=0.3], Resource [id=36, skill=2, effectivness=1.0], Resource [id=37, skill=2, effectivness=1.0]]Resource for 10: [Resource [id=9, skill=1, effectivness=1.0], Resource [id=2, skill=1, effectivness=1.0], Resource [id=6, skill=1, effectivness=1.0], Resource [id=27, skill=1, effectivness=0.3], Resource [id=22, skill=1, effectivness=0.6], Resource [id=31, skill=1, effectivness=0.7], Resource [id=11, skill=1, effectivness=1.0], Resource [id=16, skill=1, effectivness=1.0], Resource [id=62, skill=3, effectivness=1.0], Resource [id=63, skill=3, effectivness=1.0], Resource [id=64, skill=3, effectivness=1.0], Resource [id=89, skill=4, effectivness=1.0], Resource [id=84, skill=4, effectivness=1.0], Resource [id=97, skill=4, effectivness=0.5], Resource [id=86, skill=4, effectivness=1.0], Resource [id=88, skill=4, effectivness=1.0], Resource [id=99, skill=4, effectivness=0.7], Resource [id=93, skill=4, effectivness=1.0], Resource [id=100, skill=4, effectivness=0.8], Resource [id=91, skill=4, effectivness=1.0], Resource [id=90, skill=4, effectivness=1.0]]Resource for 11: [Resource [id=8, skill=1, effectivness=1.0], Resource [id=5, skill=1, effectivness=1.0], Resource [id=4, skill=1, effectivness=1.0], Resource [id=6, skill=1, effectivness=1.0], Resource [id=28, skill=1, effectivness=0.4], Resource [id=40, skill=2, effectivness=1.0], Resource [id=37, skill=2, effectivness=1.0], Resource [id=50, skill=2, effectivness=0.7], Resource [id=39, skill=2, effectivness=1.0], Resource [id=42, skill=2, effectivness=1.0], Resource [id=38, skill=2, effectivness=1.0]]Resource for 12: [Resource [id=36, skill=2, effectivness=1.0], Resource [id=41, skill=2, effectivness=1.0], Resource [id=43, skill=2, effectivness=1.0], Resource [id=47, skill=2, effectivness=0.4], Resource [id=48, skill=2, effectivness=0.5], Resource [id=50, skill=2, effectivness=0.7], Resource [id=42, skill=2, effectivness=1.0], Resource [id=99, skill=4, effectivness=0.7], Resource [id=82, skill=4, effectivness=1.0], Resource [id=85, skill=4, effectivness=1.0], Resource [id=81, skill=4, effectivness=1.0], Resource [id=93, skill=4, effectivness=1.0], Resource [id=97, skill=4, effectivness=0.5], Resource [id=102, skill=4, effectivness=0.1], Resource [id=91, skill=4, effectivness=1.0]]Resource for 13: [Resource [id=11, skill=1, effectivness=1.0], Resource [id=4, skill=1, effectivness=1.0], Resource [id=15, skill=1, effectivness=1.0], Resource [id=21, skill=1, effectivness=0.5], Resource [id=9, skill=1, effectivness=1.0], Resource [id=2, skill=1, effectivness=1.0], Resource [id=31, skill=1, effectivness=0.7], Resource [id=8, skill=1, effectivness=1.0], Resource [id=71, skill=3, effectivness=0.5], Resource [id=70, skill=3, effectivness=0.4], Resource [id=56, skill=3, effectivness=1.0], Resource [id=62, skill=3, effectivness=1.0], Resource [id=65, skill=3, effectivness=1.0], Resource [id=59, skill=3, effectivness=1.0], Resource [id=74, skill=3, effectivness=0.8], Resource [id=63, skill=3, effectivness=1.0], Resource [id=58, skill=3, effectivness=1.0], Resource [id=60, skill=3, effectivness=1.0], Resource [id=90, skill=4, effectivness=1.0], Resource [id=87, skill=4, effectivness=1.0], Resource [id=88, skill=4, effectivness=1.0], Resource [id=102, skill=4, effectivness=0.1]]Resource for 14: [Resource [id=9, skill=1, effectivness=1.0], Resource [id=23, skill=1, effectivness=0.7], Resource [id=3, skill=1, effectivness=1.0], Resource [id=11, skill=1, effectivness=1.0], Resource [id=25, skill=1, effectivness=0.9], Resource [id=31, skill=1, effectivness=0.7], Resource [id=24, skill=1, effectivness=0.8], Resource [id=5, skill=1, effectivness=1.0], Resource [id=13, skill=1, effectivness=1.0]]Resource for 15: [Resource [id=97, skill=4, effectivness=0.5], Resource [id=85, skill=4, effectivness=1.0], Resource [id=88, skill=4, effectivness=1.0], Resource [id=84, skill=4, effectivness=1.0], Resource [id=92, skill=4, effectivness=1.0], Resource [id=102, skill=4, effectivness=0.1], Resource [id=95, skill=4, effectivness=0.3], Resource [id=91, skill=4, effectivness=1.0], Resource [id=93, skill=4, effectivness=1.0]]Resource for 16: [Resource [id=68, skill=3, effectivness=0.2], Resource [id=61, skill=3, effectivness=1.0], Resource [id=58, skill=3, effectivness=1.0], Resource [id=57, skill=3, effectivness=1.0], Resource [id=67, skill=3, effectivness=1.0], Resource [id=56, skill=3, effectivness=1.0], Resource [id=71, skill=3, effectivness=0.5], Resource [id=60, skill=3, effectivness=1.0], Resource [id=62, skill=3, effectivness=1.0], Resource [id=59, skill=3, effectivness=1.0]]Resource for 17: [Resource [id=5, skill=1, effectivness=1.0], Resource [id=23, skill=1, effectivness=0.7], Resource [id=7, skill=1, effectivness=1.0], Resource [id=42, skill=2, effectivness=1.0], Resource [id=36, skill=2, effectivness=1.0], Resource [id=45, skill=2, effectivness=0.2], Resource [id=37, skill=2, effectivness=1.0], Resource [id=52, skill=2, effectivness=0.9], Resource [id=50, skill=2, effectivness=0.7], Resource [id=39, skill=2, effectivness=1.0]]Resource for 18: [Resource [id=81, skill=4, effectivness=1.0], Resource [id=99, skill=4, effectivness=0.7], Resource [id=88, skill=4, effectivness=1.0], Resource [id=87, skill=4, effectivness=1.0], Resource [id=92, skill=4, effectivness=1.0], Resource [id=89, skill=4, effectivness=1.0], Resource [id=85, skill=4, effectivness=1.0], Resource [id=90, skill=4, effectivness=1.0]]Resource for 19: [Resource [id=50, skill=2, effectivness=0.7], Resource [id=39, skill=2, effectivness=1.0], Resource [id=38, skill=2, effectivness=1.0], Resource [id=43, skill=2, effectivness=1.0], Resource [id=48, skill=2, effectivness=0.5], Resource [id=35, skill=2, effectivness=1.0], Resource [id=42, skill=2, effectivness=1.0], Resource [id=47, skill=2, effectivness=0.4], Resource [id=34, skill=2, effectivness=1.0], Resource [id=62, skill=3, effectivness=1.0], Resource [id=64, skill=3, effectivness=1.0], Resource [id=66, skill=3, effectivness=1.0], Resource [id=63, skill=3, effectivness=1.0], Resource [id=60, skill=3, effectivness=1.0]]Resource for 20: [Resource [id=40, skill=2, effectivness=1.0], Resource [id=52, skill=2, effectivness=0.9], Resource [id=46, skill=2, effectivness=0.3], Resource [id=43, skill=2, effectivness=1.0], Resource [id=41, skill=2, effectivness=1.0], Resource [id=51, skill=2, effectivness=0.8]]Resource for 21: [Resource [id=28, skill=1, effectivness=0.4], Resource [id=3, skill=1, effectivness=1.0], Resource [id=16, skill=1, effectivness=1.0], Resource [id=5, skill=1, effectivness=1.0], Resource [id=84, skill=4, effectivness=1.0], Resource [id=82, skill=4, effectivness=1.0], Resource [id=88, skill=4, effectivness=1.0], Resource [id=95, skill=4, effectivness=0.3], Resource [id=91, skill=4, effectivness=1.0], Resource [id=86, skill=4, effectivness=1.0], Resource [id=85, skill=4, effectivness=1.0], Resource [id=94, skill=4, effectivness=0.2], Resource [id=87, skill=4, effectivness=1.0], Resource [id=100, skill=4, effectivness=0.8]]Resource for 22: [Resource [id=75, skill=3, effectivness=0.9], Resource [id=63, skill=3, effectivness=1.0], Resource [id=58, skill=3, effectivness=1.0], Resource [id=65, skill=3, effectivness=1.0], Resource [id=68, skill=3, effectivness=0.2], Resource [id=67, skill=3, effectivness=1.0], Resource [id=60, skill=3, effectivness=1.0], Resource [id=74, skill=3, effectivness=0.8], Resource [id=61, skill=3, effectivness=1.0]]Resource for 23: [Resource [id=57, skill=3, effectivness=1.0], Resource [id=69, skill=3, effectivness=0.3], Resource [id=71, skill=3, effectivness=0.5], Resource [id=66, skill=3, effectivness=1.0], Resource [id=78, skill=3, effectivness=0.5], Resource [id=56, skill=3, effectivness=1.0], Resource [id=61, skill=3, effectivness=1.0], Resource [id=74, skill=3, effectivness=0.8]]Resource for 24: [Resource [id=15, skill=1, effectivness=1.0], Resource [id=12, skill=1, effectivness=1.0], Resource [id=13, skill=1, effectivness=1.0], Resource [id=6, skill=1, effectivness=1.0], Resource [id=2, skill=1, effectivness=1.0], Resource [id=22, skill=1, effectivness=0.6], Resource [id=30, skill=1, effectivness=0.6], Resource [id=9, skill=1, effectivness=1.0], Resource [id=8, skill=1, effectivness=1.0], Resource [id=59, skill=3, effectivness=1.0], Resource [id=56, skill=3, effectivness=1.0], Resource [id=66, skill=3, effectivness=1.0], Resource [id=78, skill=3, effectivness=0.5], Resource [id=75, skill=3, effectivness=0.9], Resource [id=64, skill=3, effectivness=1.0], Resource [id=68, skill=3, effectivness=0.2], Resource [id=57, skill=3, effectivness=1.0]]Resource for 25: [Resource [id=9, skill=1, effectivness=1.0], Resource [id=5, skill=1, effectivness=1.0], Resource [id=30, skill=1, effectivness=0.6], Resource [id=1, skill=1, effectivness=1.0], Resource [id=19, skill=1, effectivness=0.3], Resource [id=10, skill=1, effectivness=1.0], Resource [id=31, skill=1, effectivness=0.7], Resource [id=13, skill=1, effectivness=1.0], Resource [id=20, skill=1, effectivness=0.4], Resource [id=44, skill=2, effectivness=0.1], Resource [id=38, skill=2, effectivness=1.0], Resource [id=34, skill=2, effectivness=1.0], Resource [id=45, skill=2, effectivness=0.2], Resource [id=78, skill=3, effectivness=0.5], Resource [id=57, skill=3, effectivness=1.0], Resource [id=66, skill=3, effectivness=1.0], Resource [id=72, skill=3, effectivness=0.6], Resource [id=71, skill=3, effectivness=0.5], Resource [id=58, skill=3, effectivness=1.0], Resource [id=65, skill=3, effectivness=1.0]]Resource for 26: [Resource [id=8, skill=1, effectivness=1.0], Resource [id=28, skill=1, effectivness=0.4], Resource [id=24, skill=1, effectivness=0.8], Resource [id=25, skill=1, effectivness=0.9], Resource [id=11, skill=1, effectivness=1.0], Resource [id=37, skill=2, effectivness=1.0], Resource [id=41, skill=2, effectivness=1.0], Resource [id=53, skill=2, effectivness=0.1], Resource [id=33, skill=2, effectivness=1.0]]Resource for 27: [Resource [id=84, skill=4, effectivness=1.0], Resource [id=91, skill=4, effectivness=1.0], Resource [id=90, skill=4, effectivness=1.0], Resource [id=81, skill=4, effectivness=1.0]]Resource for 28: [Resource [id=46, skill=2, effectivness=0.3], Resource [id=49, skill=2, effectivness=0.6], Resource [id=52, skill=2, effectivness=0.9], Resource [id=44, skill=2, effectivness=0.1], Resource [id=39, skill=2, effectivness=1.0], Resource [id=38, skill=2, effectivness=1.0], Resource [id=35, skill=2, effectivness=1.0], Resource [id=48, skill=2, effectivness=0.5], Resource [id=42, skill=2, effectivness=1.0], Resource [id=60, skill=3, effectivness=1.0], Resource [id=78, skill=3, effectivness=0.5], Resource [id=64, skill=3, effectivness=1.0], Resource [id=77, skill=3, effectivness=0.4], Resource [id=56, skill=3, effectivness=1.0], Resource [id=65, skill=3, effectivness=1.0], Resource [id=69, skill=3, effectivness=0.3], Resource [id=57, skill=3, effectivness=1.0], Resource [id=72, skill=3, effectivness=0.6], Resource [id=84, skill=4, effectivness=1.0], Resource [id=81, skill=4, effectivness=1.0], Resource [id=94, skill=4, effectivness=0.2], Resource [id=82, skill=4, effectivness=1.0], Resource [id=99, skill=4, effectivness=0.7]]Resource for 29: [Resource [id=2, skill=1, effectivness=1.0], Resource [id=18, skill=1, effectivness=0.2], Resource [id=27, skill=1, effectivness=0.3], Resource [id=21, skill=1, effectivness=0.5], Resource [id=24, skill=1, effectivness=0.8], Resource [id=50, skill=2, effectivness=0.7], Resource [id=35, skill=2, effectivness=1.0], Resource [id=51, skill=2, effectivness=0.8], Resource [id=39, skill=2, effectivness=1.0], Resource [id=33, skill=2, effectivness=1.0], Resource [id=53, skill=2, effectivness=0.1]]Resource for 30: [Resource [id=9, skill=1, effectivness=1.0], Resource [id=26, skill=1, effectivness=0.2], Resource [id=4, skill=1, effectivness=1.0], Resource [id=20, skill=1, effectivness=0.4], Resource [id=42, skill=2, effectivness=1.0], Resource [id=38, skill=2, effectivness=1.0], Resource [id=49, skill=2, effectivness=0.6], Resource [id=36, skill=2, effectivness=1.0], Resource [id=60, skill=3, effectivness=1.0], Resource [id=70, skill=3, effectivness=0.4], Resource [id=66, skill=3, effectivness=1.0], Resource [id=63, skill=3, effectivness=1.0], Resource [id=64, skill=3, effectivness=1.0], Resource [id=68, skill=3, effectivness=0.2], Resource [id=76, skill=3, effectivness=0.3], Resource [id=77, skill=3, effectivness=0.4], Resource [id=95, skill=4, effectivness=0.3], Resource [id=86, skill=4, effectivness=1.0], Resource [id=102, skill=4, effectivness=0.1], Resource [id=82, skill=4, effectivness=1.0], Resource [id=99, skill=4, effectivness=0.7], Resource [id=101, skill=4, effectivness=0.9]]Resource for 31: []
+Domgrade: 0
+Effectivness: 25.28894192195982
+Makespan: 54
+************************************************************************** 
+Pareto Set Size: 1

@@ -1,5 +1,6 @@
 package Representation;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 
 import FitnessCalculator.AbsFitnessCalculator;
@@ -14,11 +15,11 @@ public class ParetoSet {
 	public ParetoSet(AbsFitnessCalculator fc, ArrayList<Solution> solutions){
 		this.fc = fc;
 		this.initialSolutions = solutions;
-		this.fc.fitnessLoader(solutions);//Última línea
+		this.fc.fitnessLoader(solutions);
 	}
 	
-	public ArrayList<Solution> getSet(){
-		ArrayList<Solution> result = new ArrayList<Solution>( );
+	public HashSet<Solution> getSet(){
+		HashSet<Solution> result = new HashSet<Solution>( );
 		for( Solution s2 : this.initialSolutions){
 			boolean dominated = false;
 			Iterator<Solution> it = this.initialSolutions.iterator();
