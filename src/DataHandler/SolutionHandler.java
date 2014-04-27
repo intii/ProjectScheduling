@@ -10,12 +10,15 @@ public class SolutionHandler {
 	private ArrayList<Resource> resources;
 	private ArrayList<Activity> activities;
 	
+	private AbsDataExtractor extractor;
+	
 	public SolutionHandler(int activities, int resources, int skills){
-		StructMaker sm = new StructMaker(activities, resources, skills);
+		//this.extractor = new StructMaker(activities, resources, skills);
 		try {
-			this.precedenceMatrix = sm.getPrecedences();
-			this.resources = sm.getResources();
-			this.activities = sm.getListAct();
+			this.extractor = new JSONExtractor();
+			this.precedenceMatrix = extractor.getPrecedences();
+			this.resources = extractor.getResources();
+			this.activities = extractor.getListAct();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -1,0 +1,517 @@
+[
+    {
+        "id": 1,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 2,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 3,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 4,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 5,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 6,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 7,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 8,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 9,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 10,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 11,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 12,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 13,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 14,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 15,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 16,
+        "skill": 1,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 17,
+        "skill": 1,
+        "effectiveness": 0.1
+    },
+    {
+        "id": 18,
+        "skill": 1,
+        "effectiveness": 0.2
+    },
+    {
+        "id": 19,
+        "skill": 1,
+        "effectiveness": 0.3
+    },
+    {
+        "id": 20,
+        "skill": 1,
+        "effectiveness": 0.4
+    },
+    {
+        "id": 21,
+        "skill": 1,
+        "effectiveness": 0.5
+    },
+    {
+        "id": 22,
+        "skill": 1,
+        "effectiveness": 0.6
+    },
+    {
+        "id": 23,
+        "skill": 1,
+        "effectiveness": 0.7
+    },
+    {
+        "id": 24,
+        "skill": 1,
+        "effectiveness": 0.8
+    },
+    {
+        "id": 25,
+        "skill": 1,
+        "effectiveness": 0.9
+    },
+    {
+        "id": 26,
+        "skill": 1,
+        "effectiveness": 0.2
+    },
+    {
+        "id": 27,
+        "skill": 1,
+        "effectiveness": 0.3
+    },
+    {
+        "id": 28,
+        "skill": 1,
+        "effectiveness": 0.4
+    },
+    {
+        "id": 29,
+        "skill": 1,
+        "effectiveness": 0.5
+    },
+    {
+        "id": 30,
+        "skill": 1,
+        "effectiveness": 0.6
+    },
+    {
+        "id": 31,
+        "skill": 1,
+        "effectiveness": 0.7
+    },
+    {
+        "id": 32,
+        "skill": 1,
+        "effectiveness": 0.8
+    },
+    {
+        "id": 33,
+        "skill": 2,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 34,
+        "skill": 2,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 35,
+        "skill": 2,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 36,
+        "skill": 2,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 37,
+        "skill": 2,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 38,
+        "skill": 2,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 39,
+        "skill": 2,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 40,
+        "skill": 2,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 41,
+        "skill": 2,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 42,
+        "skill": 2,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 43,
+        "skill": 2,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 44,
+        "skill": 2,
+        "effectiveness": 0.1
+    },
+    {
+        "id": 45,
+        "skill": 2,
+        "effectiveness": 0.2
+    },
+    {
+        "id": 46,
+        "skill": 2,
+        "effectiveness": 0.3
+    },
+    {
+        "id": 47,
+        "skill": 2,
+        "effectiveness": 0.4
+    },
+    {
+        "id": 48,
+        "skill": 2,
+        "effectiveness": 0.5
+    },
+    {
+        "id": 49,
+        "skill": 2,
+        "effectiveness": 0.6
+    },
+    {
+        "id": 50,
+        "skill": 2,
+        "effectiveness": 0.7
+    },
+    {
+        "id": 51,
+        "skill": 2,
+        "effectiveness": 0.8
+    },
+    {
+        "id": 52,
+        "skill": 2,
+        "effectiveness": 0.9
+    },
+    {
+        "id": 53,
+        "skill": 2,
+        "effectiveness": 0.1
+    },
+    {
+        "id": 54,
+        "skill": 2,
+        "effectiveness": 0.2
+    },
+    {
+        "id": 55,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 56,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 57,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 58,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 59,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 60,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 61,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 62,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 63,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 64,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 65,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 66,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 67,
+        "skill": 3,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 68,
+        "skill": 3,
+        "effectiveness": 0.2
+    },
+    {
+        "id": 69,
+        "skill": 3,
+        "effectiveness": 0.3
+    },
+    {
+        "id": 70,
+        "skill": 3,
+        "effectiveness": 0.4
+    },
+    {
+        "id": 71,
+        "skill": 3,
+        "effectiveness": 0.5
+    },
+    {
+        "id": 72,
+        "skill": 3,
+        "effectiveness": 0.6
+    },
+    {
+        "id": 73,
+        "skill": 3,
+        "effectiveness": 0.7
+    },
+    {
+        "id": 74,
+        "skill": 3,
+        "effectiveness": 0.8
+    },
+    {
+        "id": 75,
+        "skill": 3,
+        "effectiveness": 0.9
+    },
+    {
+        "id": 76,
+        "skill": 3,
+        "effectiveness": 0.3
+    },
+    {
+        "id": 77,
+        "skill": 3,
+        "effectiveness": 0.4
+    },
+    {
+        "id": 78,
+        "skill": 3,
+        "effectiveness": 0.5
+    },
+    {
+        "id": 79,
+        "skill": 3,
+        "effectiveness": 0.6
+    },
+    {
+        "id": 80,
+        "skill": 3,
+        "effectiveness": 0.7
+    },
+    {
+        "id": 81,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 82,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 83,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 84,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 85,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 86,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 87,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 88,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 89,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 90,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 91,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 92,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 93,
+        "skill": 4,
+        "effectiveness": 1.0
+    },
+    {
+        "id": 94,
+        "skill": 4,
+        "effectiveness": 0.2
+    },
+    {
+        "id": 95,
+        "skill": 4,
+        "effectiveness": 0.3
+    },
+    {
+        "id": 96,
+        "skill": 4,
+        "effectiveness": 0.4
+    },
+    {
+        "id": 97,
+        "skill": 4,
+        "effectiveness": 0.5
+    },
+    {
+        "id": 98,
+        "skill": 4,
+        "effectiveness": 0.6
+    },
+    {
+        "id": 99,
+        "skill": 4,
+        "effectiveness": 0.7
+    },
+    {
+        "id": 100,
+        "skill": 4,
+        "effectiveness": 0.8
+    },
+    {
+        "id": 101,
+        "skill": 4,
+        "effectiveness": 0.9
+    },
+    {
+        "id": 102,
+        "skill": 4,
+        "effectiveness": 0.10
+    },
+    {
+        "id": 103,
+        "skill": 4,
+        "effectiveness": 0.11
+    }
+]

@@ -2,10 +2,11 @@ package DataHandler;
 import java.io.*;
 import java.util.*;
 
+
 import Structure.Activity;
 import Structure.Resource;
 
-public class StructMaker {
+public class StructMaker extends AbsDataExtractor{
 	
 	//FILE HANDLING CONSTANTS
 	private static final int START_ACT_FILE = 220;
@@ -78,15 +79,6 @@ public class StructMaker {
 			
 		}
 		return new Activity(i,d,r);
-	}
-	
-	private void initMatrix(boolean[][] precedence){
-		
-		for(int i=0;i < precedence.length; i++){
-			for(int j=0;j < precedence.length; j++){
-				precedence[i][j]=false;
-			}
-		}
 	}
 	
 	public boolean[][] getPrecedences() throws IOException{
